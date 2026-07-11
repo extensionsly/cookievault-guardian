@@ -1,0 +1,125 @@
+@import '@cookievault/ui/tokens.css';
+@import '@cookievault/ui/theme.css';
+
+:root {
+  --accent: #007b48; /* solid button bg, white text — AA */
+  --accent-soft: #dbf9e6; /* tinted fill */
+  --accent-on: #00582f; /* AA text on --accent-soft */
+  --accent-dark: #075e39;
+  font-family: var(--cv-font);
+}
+
+[data-theme='dark'] {
+  --accent: #4dc588;
+  --accent-soft: #0c3722;
+  --accent-on: #7ce0aa;
+  --accent-dark: #4dc588;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+.opt {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 44px 24px 64px;
+}
+
+.opt-hero h1 {
+  margin: 0 0 8px;
+  font-size: 26px;
+}
+
+.opt-hero .lede {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.opt-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 18px 0;
+}
+
+.opt-card h2 {
+  font-size: 17px;
+  margin: 0 0 10px;
+}
+
+.opt-card p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.opt-card .muted {
+  color: var(--muted);
+}
+
+.pillars {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.pillars li {
+  position: relative;
+  padding-left: 24px;
+  margin: 9px 0;
+  font-size: 14px;
+}
+
+.pillars li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.opt-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 12px;
+}
+
+.opt-links a,
+.opt-card p a {
+  color: var(--accent-dark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.opt-links a:hover,
+.opt-card p a:hover {
+  text-decoration: underline;
+}
+
+/* Language picker (Options header, design §4.3). */
+.lang-select {
+  height: 30px;
+  padding: 0 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--fg);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.lang-select:focus {
+  outline: none;
+  border-color: var(--accent, var(--success));
+}

@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 cookie 自動刪除：將網域加入白名單，清除其餘，開放原始碼。"
+  },
+  "tagline": {
+    "message": "依網域加入白名單，分頁關閉時清除其餘所有內容。"
+  },
+  "thisSite": {
+    "message": "此網站"
+  },
+  "trusted": {
+    "message": "✓ 已信任"
+  },
+  "ruleTitle": {
+    "message": "規則：$1"
+  },
+  "actionAllow": {
+    "message": "允許"
+  },
+  "actionCleanOnClose": {
+    "message": "關閉時清除"
+  },
+  "actionCleanImmediately": {
+    "message": "立即清除"
+  },
+  "defaultForUnlisted": {
+    "message": "未列出網域的預設動作"
+  },
+  "protectLogins": {
+    "message": "保護登入狀態不被自動刪除"
+  },
+  "recommended": {
+    "message": "（建議）"
+  },
+  "protectLoginsTitle": {
+    "message": "除非您設定了明確的「立即清除」規則，否則絕不自動刪除看似登入／工作階段的 cookie。"
+  },
+  "alsoClearSiteData": {
+    "message": "同時清除網站資料"
+  },
+  "siteDataKinds": {
+    "message": "（localStorage、IndexedDB、快取）"
+  },
+  "clearSiteDataTitle": {
+    "message": "清除某網站的 cookie 時，也一併清除其 localStorage、IndexedDB 與快取。啟用時會要求額外的瀏覽器權限。"
+  },
+  "clearAllNow": {
+    "message": "立即清除所有 cookie"
+  },
+  "rulesHeading": {
+    "message": "規則"
+  },
+  "patternEmptyError": {
+    "message": "模式不可為空。"
+  },
+  "patternPlaceholder": {
+    "message": "example.com（完全比對）或 *.example.com（子網域）"
+  },
+  "domainPatternAria": {
+    "message": "網域比對模式"
+  },
+  "actionAria": {
+    "message": "動作"
+  },
+  "buttonAdd": {
+    "message": "新增"
+  },
+  "emptyRulesTrust": {
+    "message": "尚無規則。請在上方信任目前網站，或在下方新增網域，其餘一律套用「$1」預設動作。"
+  },
+  "emptyRulesAdd": {
+    "message": "尚無規則。請在下方新增網域，其餘一律套用「$1」預設動作。"
+  },
+  "deleteRuleAria": {
+    "message": "刪除規則 $1"
+  },
+  "deleteRuleTitle": {
+    "message": "刪除規則"
+  },
+  "recentActivity": {
+    "message": "最近活動"
+  },
+  "emptyAudit": {
+    "message": "尚無清除事件。Guardian 在背景靜默運作，一旦 cookie 被清除或觀察到，事件就會顯示在此。"
+  },
+  "trustThisSite": {
+    "message": "信任此網站"
+  },
+  "clearEverything": {
+    "message": "清除全部"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "optionsButton": {
+    "message": "選項"
+  },
+  "loading": {
+    "message": "載入中…"
+  },
+  "errorLoadGuardian": {
+    "message": "無法載入 Guardian。"
+  },
+  "clearAllTitle": {
+    "message": "立即清除所有 cookie？"
+  },
+  "clearAllMessage": {
+    "message": "這會立刻刪除每個網站上的所有 cookie，包括信任的網站與登入狀態，您將在各處被登出。此操作無法復原。"
+  },
+  "clearing": {
+    "message": "清除中…"
+  },
+  "clearedCookies": {
+    "message": "已清除 $1 個 cookie。"
+  },
+  "clearFailed": {
+    "message": "清除失敗：$1"
+  },
+  "justNow": {
+    "message": "剛剛"
+  },
+  "minutesAgo": {
+    "message": "$1 分鐘前"
+  },
+  "hoursAgo": {
+    "message": "$1 小時前"
+  },
+  "obWelcome": {
+    "message": "歡迎使用 CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "關閉分頁後，該網站留下的 cookie 會在數秒內消失，除了您選擇信任的網站。以下是 30 秒精簡版說明。"
+  },
+  "obWhatDoes": {
+    "message": "Guardian 的功能"
+  },
+  "obDoes1": {
+    "message": "在您關閉某網站最後一個分頁後數秒，刪除該網站的 cookie。"
+  },
+  "obDoes2": {
+    "message": "每 30 秒執行一次安全掃描，確保無一漏網。"
+  },
+  "obDoes3": {
+    "message": "保留可見的活動記錄，您可以清楚看到何時清除了哪些 cookie。"
+  },
+  "obDoes4": {
+    "message": "完全不碰信任的網站。"
+  },
+  "obWhatNever": {
+    "message": "它絕不會做的事"
+  },
+  "obNever1": {
+    "message": "絕不讀取或變更網頁內容。"
+  },
+  "obNever2": {
+    "message": "絕不將您的 cookie、規則或活動上傳到任何地方。"
+  },
+  "obNever3": {
+    "message": "沒有分析、沒有遙測、沒有第三方指令碼。"
+  },
+  "obNever4": {
+    "message": "絕不讓您從正在使用的網站登出。"
+  },
+  "obPickHeading": {
+    "message": "選擇 Guardian 如何處理您未列出的網站"
+  },
+  "obPickLede": {
+    "message": "您隨時可從快顯視窗變更此設定。信任的網站永遠保持登入。"
+  },
+  "obChoiceCleanTitle": {
+    "message": "關閉分頁時清除"
+  },
+  "obChoiceCleanSub": {
+    "message": "建議。在您用完未列出的網站後，自動刪除其 cookie。"
+  },
+  "obChoiceSafeTitle": {
+    "message": "安全模式（保留全部）"
+  },
+  "obChoiceSafeSub": {
+    "message": "只刪除您明確新增清除規則的網站的 cookie。"
+  },
+  "obCurrentDefault": {
+    "message": "目前預設："
+  },
+  "obLoginProtOn": {
+    "message": "· 登入保護已開啟"
+  },
+  "obTrustHeading": {
+    "message": "為何您可以信任它"
+  },
+  "obTrustOpenLead": {
+    "message": "開放原始碼。"
+  },
+  "obTrustOpenRest": {
+    "message": "每一行程式碼都在 GitHub 上以 MIT 授權公開，您可閱讀、自行建置，並驗證已發布的擴充功能與原始碼相符。"
+  },
+  "obTrustSaleLead": {
+    "message": "絕不出售。"
+  },
+  "obTrustSaleRest": {
+    "message": "我們已做出公開且具約束力的承諾，絕不出售此擴充功能或您的資料。若我們違背，您可以分支（fork）我們。"
+  },
+  "obTrustVerifyLead": {
+    "message": "可驗證。"
+  },
+  "obTrustVerifyRest": {
+    "message": "我們不混淆程式碼，並提供指南讓您自行檢查建置成果。"
+  },
+  "linkSource": {
+    "message": "GitHub 原始碼 →"
+  },
+  "linkPledge": {
+    "message": "不出售承諾 →"
+  },
+  "linkVerify": {
+    "message": "如何驗證此建置 →"
+  },
+  "obFooter": {
+    "message": "將 Guardian 釘選到工具列，隨時開啟快顯視窗，新增規則、一鍵信任目前網站，並查看活動記錄。"
+  },
+  "optHeroDesc": {
+    "message": "原生 MV3 的 cookie 自動刪除。關閉分頁後，該網站留下的 cookie 會在數秒內消失，除了您信任的網站。一切都在您的裝置上執行。"
+  },
+  "optPillar1Lead": {
+    "message": "開放原始碼且可稽核。"
+  },
+  "optPillar1Rest": {
+    "message": "採 MIT 授權；閱讀程式碼、重新建置，並確認已發布的擴充功能與原始碼相符。"
+  },
+  "optPillar2Lead": {
+    "message": "它會展示其運作過程。"
+  },
+  "optPillar2Rest": {
+    "message": "快顯視窗的活動記錄會精確記下清除了哪些 cookie 以及何時清除，自動化絕不代表黑箱。"
+  },
+  "optPillar3Lead": {
+    "message": "絕不出售。"
+  },
+  "optPillar3Rest": {
+    "message": "公開且具約束力的承諾，絕不出售此擴充功能或您的資料。若我們違背，請分支（fork）我們。"
+  },
+  "optVerifyHeading": {
+    "message": "自行驗證此建置"
+  },
+  "optVerifyDesc": {
+    "message": "我們不混淆程式碼。您可以閱讀隨附的 JavaScript、從原始碼重新建置並比對，或使用 VirusTotal 掃描套件。本指南會逐一說明每個選項。"
+  },
+  "optSettingsHeading": {
+    "message": "設定"
+  },
+  "optSettingsPre": {
+    "message": "清除規則、預設動作與登入保護位於擴充功能的快顯視窗中，請點選瀏覽器工具列上的"
+  },
+  "optSettingsPost": {
+    "message": "圖示以開啟。本頁面提供信任與驗證相關資訊。"
+  },
+  "optReplayGuide": {
+    "message": "重播歡迎指南 →"
+  },
+  "themeToggle": {
+    "message": "切換主題"
+  },
+  "cleanupDegraded": {
+    "message": "清理功能降級——上次清掃失敗，保護可能不完整。"
+  },
+  "dismissError": {
+    "message": "關閉"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "語言"
+  },
+  "langSystem": {
+    "message": "跟隨系統（瀏覽器）"
+  },
+  "obProtectedTitle": {
+    "message": "你已受保護。"
+  },
+  "obProtectedLede": {
+    "message": "Guardian 正在背景靜默守護。一切都保留在你的裝置上——無需帳戶即可開始。"
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "預設行為："
+  },
+  "obNavBack": {
+    "message": "返回"
+  },
+  "obNavContinue": {
+    "message": "繼續"
+  },
+  "obNavGetStarted": {
+    "message": "開始使用"
+  },
+  "obStepProgress": {
+    "message": "第 $1 步，共 $2 步"
+  },
+  "obDoneTitle": {
+    "message": "全部就緒——正在開啟 Guardian…"
+  },
+  "obDonePin": {
+    "message": "將擴充功能釘選到工具列，讓它隨時一鍵可及。"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "Tự động xóa cookie MV3: cho phép tên miền vào danh sách trắng, dọn phần còn lại — mã nguồn mở."
+  },
+  "tagline": {
+    "message": "Cho vào danh sách trắng theo tên miền, dọn mọi thứ khác khi đóng tab."
+  },
+  "thisSite": {
+    "message": "Trang này"
+  },
+  "trusted": {
+    "message": "✓ Đáng tin cậy"
+  },
+  "ruleTitle": {
+    "message": "Quy tắc: $1"
+  },
+  "actionAllow": {
+    "message": "Cho phép"
+  },
+  "actionCleanOnClose": {
+    "message": "Dọn khi đóng"
+  },
+  "actionCleanImmediately": {
+    "message": "Dọn ngay lập tức"
+  },
+  "defaultForUnlisted": {
+    "message": "Mặc định cho các tên miền chưa liệt kê"
+  },
+  "protectLogins": {
+    "message": "Bảo vệ phiên đăng nhập khỏi tự động xóa"
+  },
+  "recommended": {
+    "message": "(khuyến nghị)"
+  },
+  "protectLoginsTitle": {
+    "message": "Không bao giờ tự động xóa các cookie trông giống cookie đăng nhập/phiên, trừ khi bạn đặt quy tắc dọn ngay lập tức rõ ràng."
+  },
+  "alsoClearSiteData": {
+    "message": "Đồng thời xóa dữ liệu trang"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, bộ nhớ đệm)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Khi dọn cookie của một trang, cũng xóa localStorage, IndexedDB và bộ nhớ đệm của trang đó. Yêu cầu thêm một quyền trình duyệt khi được bật."
+  },
+  "clearAllNow": {
+    "message": "Xóa tất cả cookie ngay"
+  },
+  "rulesHeading": {
+    "message": "Quy tắc"
+  },
+  "patternEmptyError": {
+    "message": "Mẫu không được để trống."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (chính xác) hoặc *.example.com (tên miền phụ)"
+  },
+  "domainPatternAria": {
+    "message": "Mẫu tên miền"
+  },
+  "actionAria": {
+    "message": "Hành động"
+  },
+  "buttonAdd": {
+    "message": "Thêm"
+  },
+  "emptyRulesTrust": {
+    "message": "Chưa có quy tắc nào. Tin cậy trang hiện tại ở trên, hoặc thêm một tên miền bên dưới — mọi thứ khác tuân theo mặc định “$1”."
+  },
+  "emptyRulesAdd": {
+    "message": "Chưa có quy tắc nào. Thêm một tên miền bên dưới — mọi thứ khác tuân theo mặc định “$1”."
+  },
+  "deleteRuleAria": {
+    "message": "Xóa quy tắc $1"
+  },
+  "deleteRuleTitle": {
+    "message": "Xóa quy tắc"
+  },
+  "recentActivity": {
+    "message": "Hoạt động gần đây"
+  },
+  "emptyAudit": {
+    "message": "Chưa có sự kiện dọn dẹp nào. Guardian hoạt động âm thầm — các sự kiện xuất hiện ở đây sau khi cookie được dọn hoặc quan sát."
+  },
+  "trustThisSite": {
+    "message": "Tin cậy trang này"
+  },
+  "clearEverything": {
+    "message": "Xóa mọi thứ"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "optionsButton": {
+    "message": "Tùy chọn"
+  },
+  "loading": {
+    "message": "Đang tải…"
+  },
+  "errorLoadGuardian": {
+    "message": "Không thể tải Guardian."
+  },
+  "clearAllTitle": {
+    "message": "Xóa tất cả cookie ngay?"
+  },
+  "clearAllMessage": {
+    "message": "Thao tác này xóa ngay mọi cookie trên mọi trang, bao gồm các trang đáng tin cậy và phiên đăng nhập — bạn sẽ bị đăng xuất ở mọi nơi. Không thể hoàn tác."
+  },
+  "clearing": {
+    "message": "Đang xóa…"
+  },
+  "clearedCookies": {
+    "message": "Đã xóa $1 cookie."
+  },
+  "clearFailed": {
+    "message": "Xóa thất bại: $1"
+  },
+  "justNow": {
+    "message": "vừa xong"
+  },
+  "minutesAgo": {
+    "message": "$1 phút trước"
+  },
+  "hoursAgo": {
+    "message": "$1 giờ trước"
+  },
+  "obWelcome": {
+    "message": "Chào mừng đến với CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Đóng một tab, và những cookie mà trang đó để lại sẽ biến mất trong vài giây — ngoại trừ các trang bạn chọn tin cậy. Đây là phiên bản 30 giây."
+  },
+  "obWhatDoes": {
+    "message": "Guardian làm gì"
+  },
+  "obDoes1": {
+    "message": "Xóa cookie của một trang ngay sau khi bạn đóng tab cuối cùng của trang đó."
+  },
+  "obDoes2": {
+    "message": "Chạy quét an toàn mỗi 30 giây để không có gì lọt qua."
+  },
+  "obDoes3": {
+    "message": "Giữ một nhật ký hoạt động hiển thị — bạn có thể thấy chính xác cái gì đã được dọn, và khi nào."
+  },
+  "obDoes4": {
+    "message": "Để yên hoàn toàn các trang đáng tin cậy."
+  },
+  "obWhatNever": {
+    "message": "Điều nó không bao giờ làm"
+  },
+  "obNever1": {
+    "message": "Không bao giờ đọc hay thay đổi nội dung của trang web."
+  },
+  "obNever2": {
+    "message": "Không bao giờ tải lên cookie, quy tắc hay hoạt động của bạn đến bất kỳ đâu."
+  },
+  "obNever3": {
+    "message": "Không thu thập dữ liệu phân tích, không telemetry, không tập lệnh bên thứ ba."
+  },
+  "obNever4": {
+    "message": "Không bao giờ đăng xuất bạn khỏi một trang bạn đang dùng."
+  },
+  "obPickHeading": {
+    "message": "Chọn cách Guardian xử lý các trang bạn chưa liệt kê"
+  },
+  "obPickLede": {
+    "message": "Bạn có thể thay đổi điều này bất cứ lúc nào từ popup. Các trang đáng tin cậy luôn duy trì đăng nhập."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Dọn khi đóng tab"
+  },
+  "obChoiceCleanSub": {
+    "message": "Khuyến nghị. Tự động xóa cookie cho các trang chưa liệt kê khi bạn dùng xong."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Chế độ an toàn (giữ mọi thứ)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Chỉ xóa cookie cho các trang bạn đã thêm quy tắc dọn dẹp rõ ràng."
+  },
+  "obCurrentDefault": {
+    "message": "Mặc định hiện tại:"
+  },
+  "obLoginProtOn": {
+    "message": "· bảo vệ đăng nhập đang bật"
+  },
+  "obTrustHeading": {
+    "message": "Vì sao bạn có thể tin cậy"
+  },
+  "obTrustOpenLead": {
+    "message": "Mã nguồn mở."
+  },
+  "obTrustOpenRest": {
+    "message": "Mọi dòng đều có trên GitHub theo giấy phép MIT — đọc nó, xây dựng nó, và xác minh rằng bản phát hành khớp với mã nguồn."
+  },
+  "obTrustSaleLead": {
+    "message": "Không bao giờ bán."
+  },
+  "obTrustSaleRest": {
+    "message": "Chúng tôi đã đưa ra một cam kết công khai, ràng buộc rằng không bao giờ bán tiện ích hay dữ liệu của bạn. Nếu chúng tôi vi phạm, bạn có thể fork chúng tôi."
+  },
+  "obTrustVerifyLead": {
+    "message": "Có thể xác minh."
+  },
+  "obTrustVerifyRest": {
+    "message": "Chúng tôi không làm rối mã, và chúng tôi công bố hướng dẫn để bạn tự kiểm tra bản dựng."
+  },
+  "linkSource": {
+    "message": "Mã nguồn trên GitHub →"
+  },
+  "linkPledge": {
+    "message": "Cam kết không bán →"
+  },
+  "linkVerify": {
+    "message": "Cách xác minh bản dựng này →"
+  },
+  "obFooter": {
+    "message": "Ghim Guardian vào thanh công cụ để mở popup bất cứ lúc nào — thêm quy tắc, tin cậy trang hiện tại chỉ với một cú nhấp, và theo dõi nhật ký hoạt động."
+  },
+  "optHeroDesc": {
+    "message": "Tự động xóa cookie thuần MV3. Đóng một tab và những cookie mà trang đó để lại sẽ biến mất trong vài giây — ngoại trừ các trang bạn tin cậy. Mọi thứ chạy trên thiết bị của bạn."
+  },
+  "optPillar1Lead": {
+    "message": "Mã nguồn mở & có thể kiểm tra."
+  },
+  "optPillar1Rest": {
+    "message": "Giấy phép MIT; đọc mã, dựng lại, và xác nhận bản phát hành khớp với mã nguồn."
+  },
+  "optPillar2Lead": {
+    "message": "Minh bạch mọi thao tác."
+  },
+  "optPillar2Rest": {
+    "message": "Nhật ký hoạt động của popup ghi lại chính xác cookie nào đã được dọn và khi nào — tự động không bao giờ có nghĩa là hộp đen."
+  },
+  "optPillar3Lead": {
+    "message": "Không bao giờ bán."
+  },
+  "optPillar3Rest": {
+    "message": "Một cam kết công khai, ràng buộc rằng không bao giờ bán tiện ích hay dữ liệu của bạn. Nếu chúng tôi vi phạm, hãy fork chúng tôi."
+  },
+  "optVerifyHeading": {
+    "message": "Tự xác minh bản dựng này"
+  },
+  "optVerifyDesc": {
+    "message": "Chúng tôi không làm rối mã. Bạn có thể đọc JavaScript được phát hành, dựng lại từ mã nguồn và so sánh, hoặc quét gói bằng VirusTotal. Hướng dẫn sẽ đi qua từng tùy chọn."
+  },
+  "optSettingsHeading": {
+    "message": "Cài đặt"
+  },
+  "optSettingsPre": {
+    "message": "Các quy tắc dọn dẹp, hành động mặc định và bảo vệ đăng nhập nằm trong popup của tiện ích — nhấp vào biểu tượng"
+  },
+  "optSettingsPost": {
+    "message": "trên thanh công cụ trình duyệt để mở nó. Trang này dành cho thông tin tin cậy & xác minh."
+  },
+  "optReplayGuide": {
+    "message": "Xem lại hướng dẫn chào mừng →"
+  },
+  "themeToggle": {
+    "message": "Đổi giao diện"
+  },
+  "cleanupDegraded": {
+    "message": "Việc dọn dẹp bị suy giảm — lần quét cuối đã thất bại. Việc bảo vệ có thể chưa hoàn chỉnh."
+  },
+  "dismissError": {
+    "message": "Bỏ qua"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Ngôn ngữ"
+  },
+  "langSystem": {
+    "message": "Hệ thống (trình duyệt)"
+  },
+  "obProtectedTitle": {
+    "message": "Bạn đã được bảo vệ."
+  },
+  "obProtectedLede": {
+    "message": "Guardian âm thầm theo dõi ở chế độ nền. Mọi thứ vẫn ở trên thiết bị của bạn — không cần tài khoản để bắt đầu."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Hành vi mặc định:"
+  },
+  "obNavBack": {
+    "message": "Quay lại"
+  },
+  "obNavContinue": {
+    "message": "Tiếp tục"
+  },
+  "obNavGetStarted": {
+    "message": "Bắt đầu"
+  },
+  "obStepProgress": {
+    "message": "Bước $1 / $2"
+  },
+  "obDoneTitle": {
+    "message": "Đã xong — đang mở Guardian…"
+  },
+  "obDonePin": {
+    "message": "Ghim tiện ích vào thanh công cụ để luôn chỉ cách một cú nhấp."
+  }
+}

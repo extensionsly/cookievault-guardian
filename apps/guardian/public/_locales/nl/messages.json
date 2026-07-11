@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 cookies automatisch verwijderen: domeinen op witte lijst, de rest opschonen — open source."
+  },
+  "tagline": {
+    "message": "Witte lijst per domein, schoon de rest op bij het sluiten van een tabblad."
+  },
+  "thisSite": {
+    "message": "Deze site"
+  },
+  "trusted": {
+    "message": "✓ Vertrouwd"
+  },
+  "ruleTitle": {
+    "message": "Regel: $1"
+  },
+  "actionAllow": {
+    "message": "Toestaan"
+  },
+  "actionCleanOnClose": {
+    "message": "Opschonen bij sluiten"
+  },
+  "actionCleanImmediately": {
+    "message": "Direct opschonen"
+  },
+  "defaultForUnlisted": {
+    "message": "Standaard voor niet-vermelde domeinen"
+  },
+  "protectLogins": {
+    "message": "Aanmeldingen beschermen tegen automatisch verwijderen"
+  },
+  "recommended": {
+    "message": "(aanbevolen)"
+  },
+  "protectLoginsTitle": {
+    "message": "Verwijder nooit automatisch cookies die op login-/sessiecookies lijken, tenzij je een expliciete regel voor direct opschonen instelt."
+  },
+  "alsoClearSiteData": {
+    "message": "Ook sitegegevens wissen"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, cache)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Wis bij het opschonen van de cookies van een site ook de localStorage, IndexedDB en cache. Vraagt een extra browserrecht aan wanneer ingeschakeld."
+  },
+  "clearAllNow": {
+    "message": "Alle cookies nu wissen"
+  },
+  "rulesHeading": {
+    "message": "Regels"
+  },
+  "patternEmptyError": {
+    "message": "Patroon mag niet leeg zijn."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (exact) of *.example.com (subdomeinen)"
+  },
+  "domainPatternAria": {
+    "message": "Domeinpatroon"
+  },
+  "actionAria": {
+    "message": "Actie"
+  },
+  "buttonAdd": {
+    "message": "Toevoegen"
+  },
+  "emptyRulesTrust": {
+    "message": "Nog geen regels. Vertrouw hierboven de huidige site, of voeg hieronder een domein toe — al het andere volgt de standaard “$1”."
+  },
+  "emptyRulesAdd": {
+    "message": "Nog geen regels. Voeg hieronder een domein toe — al het andere volgt de standaard “$1”."
+  },
+  "deleteRuleAria": {
+    "message": "Regel $1 verwijderen"
+  },
+  "deleteRuleTitle": {
+    "message": "Regel verwijderen"
+  },
+  "recentActivity": {
+    "message": "Recente activiteit"
+  },
+  "emptyAudit": {
+    "message": "Nog geen opschoongebeurtenissen. Guardian werkt stilletjes — gebeurtenissen verschijnen hier zodra cookies worden opgeschoond of waargenomen."
+  },
+  "trustThisSite": {
+    "message": "Deze site vertrouwen"
+  },
+  "clearEverything": {
+    "message": "Alles wissen"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "optionsButton": {
+    "message": "Opties"
+  },
+  "loading": {
+    "message": "Laden…"
+  },
+  "errorLoadGuardian": {
+    "message": "Kan Guardian niet laden."
+  },
+  "clearAllTitle": {
+    "message": "Alle cookies nu wissen?"
+  },
+  "clearAllMessage": {
+    "message": "Dit verwijdert onmiddellijk elke cookie op elke site, inclusief vertrouwde sites en aanmeldingen — je wordt overal afgemeld. Dit kan niet ongedaan worden gemaakt."
+  },
+  "clearing": {
+    "message": "Wissen…"
+  },
+  "clearedCookies": {
+    "message": "$1 cookies gewist."
+  },
+  "clearFailed": {
+    "message": "Wissen mislukt: $1"
+  },
+  "justNow": {
+    "message": "zojuist"
+  },
+  "minutesAgo": {
+    "message": "$1 min geleden"
+  },
+  "hoursAgo": {
+    "message": "$1 u geleden"
+  },
+  "obWelcome": {
+    "message": "Welkom bij CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Sluit een tabblad en de cookies die die site achterliet zijn binnen enkele seconden verdwenen — behalve de sites die je kiest te vertrouwen. Hier is de versie in 30 seconden."
+  },
+  "obWhatDoes": {
+    "message": "Wat Guardian doet"
+  },
+  "obDoes1": {
+    "message": "Verwijdert cookies voor een site enkele momenten nadat je het laatste tabblad ervan sluit."
+  },
+  "obDoes2": {
+    "message": "Voert elke 30 seconden een veiligheidscontrole uit zodat er niets doorglipt."
+  },
+  "obDoes3": {
+    "message": "Houdt een zichtbaar activiteitenlogboek bij — je ziet precies wat er is opgeschoond en wanneer."
+  },
+  "obDoes4": {
+    "message": "Laat vertrouwde sites volledig met rust."
+  },
+  "obWhatNever": {
+    "message": "Wat het nooit doet"
+  },
+  "obNever1": {
+    "message": "Leest of wijzigt nooit de inhoud van webpagina's."
+  },
+  "obNever2": {
+    "message": "Uploadt je cookies, regels of activiteit nooit ergens naartoe."
+  },
+  "obNever3": {
+    "message": "Geen analytics, geen telemetrie, geen scripts van derden."
+  },
+  "obNever4": {
+    "message": "Meldt je nooit af van een site die je actief gebruikt."
+  },
+  "obPickHeading": {
+    "message": "Kies hoe Guardian omgaat met sites die je niet hebt vermeld"
+  },
+  "obPickLede": {
+    "message": "Je kunt dit op elk moment wijzigen via de pop-up. Vertrouwde sites blijven altijd aangemeld."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Opschonen bij sluiten van tabblad"
+  },
+  "obChoiceCleanSub": {
+    "message": "Aanbevolen. Verwijder automatisch cookies voor niet-vermelde sites zodra je er klaar mee bent."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Veilige modus (alles behouden)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Verwijder alleen cookies voor sites waarvoor je expliciet een opschoonregel toevoegt."
+  },
+  "obCurrentDefault": {
+    "message": "Huidige standaard:"
+  },
+  "obLoginProtOn": {
+    "message": "· loginbescherming aan"
+  },
+  "obTrustHeading": {
+    "message": "Waarom je het kunt vertrouwen"
+  },
+  "obTrustOpenLead": {
+    "message": "Open source."
+  },
+  "obTrustOpenRest": {
+    "message": "Elke regel staat op GitHub onder de MIT-licentie — lees het, bouw het en controleer of de gepubliceerde extensie overeenkomt met de broncode."
+  },
+  "obTrustSaleLead": {
+    "message": "Nooit te koop."
+  },
+  "obTrustSaleRest": {
+    "message": "We hebben een openbare, bindende belofte gedaan om de extensie of je gegevens nooit te verkopen. Als we die breken, kun je ons forken."
+  },
+  "obTrustVerifyLead": {
+    "message": "Verifieerbaar."
+  },
+  "obTrustVerifyRest": {
+    "message": "We verbergen onze code niet en we publiceren een handleiding om de build zelf te controleren."
+  },
+  "linkSource": {
+    "message": "Broncode op GitHub →"
+  },
+  "linkPledge": {
+    "message": "Niet-verkopen-belofte →"
+  },
+  "linkVerify": {
+    "message": "Hoe je deze build verifieert →"
+  },
+  "obFooter": {
+    "message": "Maak Guardian vast aan je werkbalk om de pop-up op elk moment te openen — voeg regels toe, vertrouw de huidige site met één klik en bekijk het activiteitenlogboek."
+  },
+  "optHeroDesc": {
+    "message": "Native MV3 cookies automatisch verwijderen. Sluit een tabblad en de cookies die die site achterliet zijn binnen enkele seconden verdwenen — behalve de sites die je vertrouwt. Alles draait op je apparaat."
+  },
+  "optPillar1Lead": {
+    "message": "Open source & controleerbaar."
+  },
+  "optPillar1Rest": {
+    "message": "MIT-gelicentieerd; lees de code, bouw hem opnieuw en bevestig dat de gepubliceerde extensie overeenkomt met de broncode."
+  },
+  "optPillar2Lead": {
+    "message": "Het laat zien wat het doet."
+  },
+  "optPillar2Rest": {
+    "message": "Het activiteitenlogboek van de pop-up registreert precies welke cookies zijn opgeschoond en wanneer — automatisch betekent nooit een black box."
+  },
+  "optPillar3Lead": {
+    "message": "Nooit te koop."
+  },
+  "optPillar3Rest": {
+    "message": "Een openbare, bindende belofte om de extensie of je gegevens nooit te verkopen. Als we die breken, fork ons."
+  },
+  "optVerifyHeading": {
+    "message": "Verifieer deze build zelf"
+  },
+  "optVerifyDesc": {
+    "message": "We verbergen onze code niet. Je kunt de geleverde JavaScript lezen, opnieuw bouwen vanuit de broncode en vergelijken, of het pakket scannen met VirusTotal. De handleiding behandelt elke optie."
+  },
+  "optSettingsHeading": {
+    "message": "Instellingen"
+  },
+  "optSettingsPre": {
+    "message": "Opschoonregels, de standaardactie en loginbescherming staan in de pop-up van de extensie — klik op het"
+  },
+  "optSettingsPost": {
+    "message": "pictogram in de werkbalk van je browser om deze te openen. Deze pagina is voor vertrouwens- en verificatie-informatie."
+  },
+  "optReplayGuide": {
+    "message": "De welkomstgids opnieuw afspelen →"
+  },
+  "themeToggle": {
+    "message": "Thema wisselen"
+  },
+  "cleanupDegraded": {
+    "message": "Opschonen is verminderd — de laatste veegbeurt is mislukt. De bescherming kan onvolledig zijn."
+  },
+  "dismissError": {
+    "message": "Sluiten"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Taal"
+  },
+  "langSystem": {
+    "message": "Systeem (browser)"
+  },
+  "obProtectedTitle": {
+    "message": "Je bent beschermd."
+  },
+  "obProtectedLede": {
+    "message": "Guardian houdt stilletjes de wacht op de achtergrond. Alles blijft op je apparaat — geen account nodig om te beginnen."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Standaardgedrag:"
+  },
+  "obNavBack": {
+    "message": "Terug"
+  },
+  "obNavContinue": {
+    "message": "Doorgaan"
+  },
+  "obNavGetStarted": {
+    "message": "Aan de slag"
+  },
+  "obStepProgress": {
+    "message": "Stap $1 van $2"
+  },
+  "obDoneTitle": {
+    "message": "Helemaal klaar — Guardian wordt geopend…"
+  },
+  "obDonePin": {
+    "message": "Zet de extensie vast op je werkbalk zodat die altijd met één klik bereikbaar is."
+  }
+}

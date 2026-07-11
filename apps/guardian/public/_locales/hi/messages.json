@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 cookie ऑटो-डिलीट: डोमेन व्हाइटलिस्ट करें, बाकी साफ़ करें — ओपन सोर्स।"
+  },
+  "tagline": {
+    "message": "डोमेन से व्हाइटलिस्ट करें, टैब बंद होने पर बाकी सब साफ़ करें।"
+  },
+  "thisSite": {
+    "message": "यह साइट"
+  },
+  "trusted": {
+    "message": "✓ विश्वसनीय"
+  },
+  "ruleTitle": {
+    "message": "नियम: $1"
+  },
+  "actionAllow": {
+    "message": "अनुमति दें"
+  },
+  "actionCleanOnClose": {
+    "message": "बंद होने पर साफ़ करें"
+  },
+  "actionCleanImmediately": {
+    "message": "तुरंत साफ़ करें"
+  },
+  "defaultForUnlisted": {
+    "message": "असूचीबद्ध डोमेन के लिए डिफ़ॉल्ट"
+  },
+  "protectLogins": {
+    "message": "लॉगिन को ऑटो-डिलीट से सुरक्षित रखें"
+  },
+  "recommended": {
+    "message": "(अनुशंसित)"
+  },
+  "protectLoginsTitle": {
+    "message": "जब तक आप कोई स्पष्ट तुरंत-साफ़ नियम न सेट करें, लॉगिन/सत्र जैसी दिखने वाली cookies को कभी ऑटो-डिलीट न करें।"
+  },
+  "alsoClearSiteData": {
+    "message": "साइट डेटा भी साफ़ करें"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, कैश)"
+  },
+  "clearSiteDataTitle": {
+    "message": "किसी साइट की cookies साफ़ करते समय, उसका localStorage, IndexedDB और कैश भी साफ़ करें। सक्षम करने पर एक अतिरिक्त ब्राउज़र अनुमति का अनुरोध करता है।"
+  },
+  "clearAllNow": {
+    "message": "अभी सभी cookies साफ़ करें"
+  },
+  "rulesHeading": {
+    "message": "नियम"
+  },
+  "patternEmptyError": {
+    "message": "पैटर्न खाली नहीं हो सकता।"
+  },
+  "patternPlaceholder": {
+    "message": "example.com (सटीक) या *.example.com (सबडोमेन)"
+  },
+  "domainPatternAria": {
+    "message": "डोमेन पैटर्न"
+  },
+  "actionAria": {
+    "message": "क्रिया"
+  },
+  "buttonAdd": {
+    "message": "जोड़ें"
+  },
+  "emptyRulesTrust": {
+    "message": "अभी कोई नियम नहीं। ऊपर मौजूदा साइट पर भरोसा करें, या नीचे कोई डोमेन जोड़ें — बाकी सब “$1” डिफ़ॉल्ट का पालन करता है।"
+  },
+  "emptyRulesAdd": {
+    "message": "अभी कोई नियम नहीं। नीचे कोई डोमेन जोड़ें — बाकी सब “$1” डिफ़ॉल्ट का पालन करता है।"
+  },
+  "deleteRuleAria": {
+    "message": "नियम $1 हटाएँ"
+  },
+  "deleteRuleTitle": {
+    "message": "नियम हटाएँ"
+  },
+  "recentActivity": {
+    "message": "हाल की गतिविधि"
+  },
+  "emptyAudit": {
+    "message": "अभी कोई सफ़ाई इवेंट नहीं। Guardian चुपचाप काम करता है — cookies साफ़ या देखे जाने पर इवेंट यहाँ दिखेंगे।"
+  },
+  "trustThisSite": {
+    "message": "इस साइट पर भरोसा करें"
+  },
+  "clearEverything": {
+    "message": "सब कुछ साफ़ करें"
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "optionsButton": {
+    "message": "विकल्प"
+  },
+  "loading": {
+    "message": "लोड हो रहा है…"
+  },
+  "errorLoadGuardian": {
+    "message": "Guardian लोड नहीं हो सका।"
+  },
+  "clearAllTitle": {
+    "message": "अभी सभी cookies साफ़ करें?"
+  },
+  "clearAllMessage": {
+    "message": "यह हर साइट की हर cookie तुरंत हटा देता है, जिसमें विश्वसनीय साइटें और लॉगिन शामिल हैं — आप हर जगह से साइन आउट हो जाएँगे। इसे पूर्ववत नहीं किया जा सकता।"
+  },
+  "clearing": {
+    "message": "साफ़ किया जा रहा है…"
+  },
+  "clearedCookies": {
+    "message": "$1 cookies साफ़ की गईं।"
+  },
+  "clearFailed": {
+    "message": "साफ़ करना विफल: $1"
+  },
+  "justNow": {
+    "message": "अभी-अभी"
+  },
+  "minutesAgo": {
+    "message": "$1 मि पहले"
+  },
+  "hoursAgo": {
+    "message": "$1 घं पहले"
+  },
+  "obWelcome": {
+    "message": "CookieVault Guardian में आपका स्वागत है"
+  },
+  "obLede": {
+    "message": "एक टैब बंद करें, और उस साइट द्वारा छोड़ी गई cookies कुछ ही सेकंड में चली जाती हैं — सिवाय उन साइटों के जिन पर आप भरोसा करना चुनते हैं। यह रहा 30-सेकंड वाला सार।"
+  },
+  "obWhatDoes": {
+    "message": "Guardian क्या करता है"
+  },
+  "obDoes1": {
+    "message": "किसी साइट का आख़िरी टैब बंद करने के कुछ ही पल बाद उसकी cookies हटा देता है।"
+  },
+  "obDoes2": {
+    "message": "हर 30 सेकंड में एक सुरक्षा स्वीप चलाता है ताकि कुछ भी छूट न जाए।"
+  },
+  "obDoes3": {
+    "message": "एक दृश्यमान गतिविधि लॉग रखता है — आप ठीक-ठीक देख सकते हैं कि क्या और कब साफ़ हुआ।"
+  },
+  "obDoes4": {
+    "message": "विश्वसनीय साइटों को पूरी तरह अछूता छोड़ देता है।"
+  },
+  "obWhatNever": {
+    "message": "यह कभी क्या नहीं करता"
+  },
+  "obNever1": {
+    "message": "वेब पेजों की सामग्री को कभी नहीं पढ़ता या बदलता।"
+  },
+  "obNever2": {
+    "message": "आपकी cookies, नियम या गतिविधि कहीं भी अपलोड नहीं करता।"
+  },
+  "obNever3": {
+    "message": "कोई एनालिटिक्स नहीं, कोई टेलीमेट्री नहीं, कोई थर्ड-पार्टी स्क्रिप्ट नहीं।"
+  },
+  "obNever4": {
+    "message": "जिस साइट का आप सक्रिय रूप से उपयोग कर रहे हैं, उससे आपको कभी लॉग आउट नहीं करता।"
+  },
+  "obPickHeading": {
+    "message": "चुनें कि Guardian उन साइटों के साथ कैसा व्यवहार करे जिन्हें आपने सूचीबद्ध नहीं किया"
+  },
+  "obPickLede": {
+    "message": "आप इसे पॉपअप से कभी भी बदल सकते हैं। विश्वसनीय साइटें हमेशा लॉग इन रहती हैं।"
+  },
+  "obChoiceCleanTitle": {
+    "message": "टैब बंद होने पर साफ़ करें"
+  },
+  "obChoiceCleanSub": {
+    "message": "अनुशंसित। असूचीबद्ध साइटों की cookies उनके साथ काम पूरा होते ही ऑटो-डिलीट करें।"
+  },
+  "obChoiceSafeTitle": {
+    "message": "सुरक्षित मोड (सब कुछ रखें)"
+  },
+  "obChoiceSafeSub": {
+    "message": "केवल उन साइटों की cookies हटाएँ जिनके लिए आप स्पष्ट रूप से कोई सफ़ाई नियम जोड़ते हैं।"
+  },
+  "obCurrentDefault": {
+    "message": "वर्तमान डिफ़ॉल्ट:"
+  },
+  "obLoginProtOn": {
+    "message": "· लॉगिन सुरक्षा चालू"
+  },
+  "obTrustHeading": {
+    "message": "आप इस पर भरोसा क्यों कर सकते हैं"
+  },
+  "obTrustOpenLead": {
+    "message": "ओपन सोर्स।"
+  },
+  "obTrustOpenRest": {
+    "message": "हर पंक्ति GitHub पर MIT लाइसेंस के तहत है — इसे पढ़ें, बनाएँ, और सत्यापित करें कि प्रकाशित एक्सटेंशन स्रोत से मेल खाता है।"
+  },
+  "obTrustSaleLead": {
+    "message": "कभी बिक्री के लिए नहीं।"
+  },
+  "obTrustSaleRest": {
+    "message": "हमने एक सार्वजनिक, बाध्यकारी प्रतिज्ञा की है कि एक्सटेंशन या आपका डेटा कभी नहीं बेचेंगे। अगर हम इसे तोड़ें, तो आप हमें फ़ोर्क कर सकते हैं।"
+  },
+  "obTrustVerifyLead": {
+    "message": "सत्यापन-योग्य।"
+  },
+  "obTrustVerifyRest": {
+    "message": "हम अपना कोड अस्पष्ट नहीं करते, और बिल्ड को स्वयं जाँचने के लिए एक गाइड प्रकाशित करते हैं।"
+  },
+  "linkSource": {
+    "message": "GitHub पर स्रोत →"
+  },
+  "linkPledge": {
+    "message": "नो-सेल प्रतिज्ञा →"
+  },
+  "linkVerify": {
+    "message": "इस बिल्ड को कैसे सत्यापित करें →"
+  },
+  "obFooter": {
+    "message": "पॉपअप कभी भी खोलने के लिए Guardian को अपने टूलबार पर पिन करें — नियम जोड़ें, एक क्लिक में मौजूदा साइट पर भरोसा करें, और गतिविधि लॉग देखें।"
+  },
+  "optHeroDesc": {
+    "message": "MV3-नेटिव cookie ऑटो-डिलीट। एक टैब बंद करें और उस साइट द्वारा छोड़ी गई cookies कुछ ही सेकंड में चली जाती हैं — सिवाय उन साइटों के जिन पर आप भरोसा करते हैं। सब कुछ आपके डिवाइस पर चलता है।"
+  },
+  "optPillar1Lead": {
+    "message": "ओपन सोर्स और ऑडिट-योग्य।"
+  },
+  "optPillar1Rest": {
+    "message": "MIT-लाइसेंस प्राप्त; कोड पढ़ें, इसे फिर से बनाएँ, और पुष्टि करें कि प्रकाशित एक्सटेंशन स्रोत से मेल खाता है।"
+  },
+  "optPillar2Lead": {
+    "message": "यह अपना काम दिखाता है।"
+  },
+  "optPillar2Rest": {
+    "message": "पॉपअप का गतिविधि लॉग ठीक-ठीक रिकॉर्ड करता है कि कौन-सी cookies और कब साफ़ हुईं — ऑटोमैटिक का मतलब कभी ब्लैक बॉक्स नहीं होता।"
+  },
+  "optPillar3Lead": {
+    "message": "कभी बिक्री के लिए नहीं।"
+  },
+  "optPillar3Rest": {
+    "message": "एक सार्वजनिक, बाध्यकारी प्रतिज्ञा कि एक्सटेंशन या आपका डेटा कभी नहीं बेचेंगे। अगर हम इसे तोड़ें, तो हमें फ़ोर्क करें।"
+  },
+  "optVerifyHeading": {
+    "message": "इस बिल्ड को स्वयं सत्यापित करें"
+  },
+  "optVerifyDesc": {
+    "message": "हम अपना कोड अस्पष्ट नहीं करते। आप भेजी गई JavaScript पढ़ सकते हैं, स्रोत से फिर से बनाकर तुलना कर सकते हैं, या पैकेज को VirusTotal से स्कैन कर सकते हैं। गाइड हर विकल्प को विस्तार से समझाती है।"
+  },
+  "optSettingsHeading": {
+    "message": "सेटिंग्स"
+  },
+  "optSettingsPre": {
+    "message": "सफ़ाई नियम, डिफ़ॉल्ट क्रिया, और लॉगिन सुरक्षा एक्सटेंशन पॉपअप में हैं — इसे खोलने के लिए"
+  },
+  "optSettingsPost": {
+    "message": "आइकन पर क्लिक करें जो आपके ब्राउज़र के टूलबार में है। यह पेज भरोसे व सत्यापन की जानकारी के लिए है।"
+  },
+  "optReplayGuide": {
+    "message": "स्वागत गाइड फिर से देखें →"
+  },
+  "themeToggle": {
+    "message": "थीम बदलें"
+  },
+  "cleanupDegraded": {
+    "message": "सफाई सीमित है — पिछला स्वीप विफल रहा। सुरक्षा अधूरी हो सकती है।"
+  },
+  "dismissError": {
+    "message": "खारिज करें"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "भाषा"
+  },
+  "langSystem": {
+    "message": "सिस्टम (ब्राउज़र)"
+  },
+  "obProtectedTitle": {
+    "message": "आप सुरक्षित हैं।"
+  },
+  "obProtectedLede": {
+    "message": "Guardian पृष्ठभूमि में चुपचाप निगरानी कर रहा है। सब कुछ आपके डिवाइस पर रहता है — शुरू करने के लिए किसी खाते की ज़रूरत नहीं।"
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "डिफ़ॉल्ट व्यवहार:"
+  },
+  "obNavBack": {
+    "message": "वापस"
+  },
+  "obNavContinue": {
+    "message": "जारी रखें"
+  },
+  "obNavGetStarted": {
+    "message": "शुरू करें"
+  },
+  "obStepProgress": {
+    "message": "चरण $1 / $2"
+  },
+  "obDoneTitle": {
+    "message": "सब तैयार — Guardian खोला जा रहा है…"
+  },
+  "obDonePin": {
+    "message": "एक्सटेंशन को अपने टूलबार पर पिन करें ताकि यह हमेशा एक क्लिक दूर रहे।"
+  }
+}

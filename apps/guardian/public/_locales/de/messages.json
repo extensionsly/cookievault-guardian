@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 Cookie-Auto-Löschen: Domains whitelisten, Rest entfernen. Open Source."
+  },
+  "tagline": {
+    "message": "Per Domain auf die Whitelist setzen, den Rest beim Schließen des Tabs löschen."
+  },
+  "thisSite": {
+    "message": "Diese Website"
+  },
+  "trusted": {
+    "message": "✓ Vertraut"
+  },
+  "ruleTitle": {
+    "message": "Regel: $1"
+  },
+  "actionAllow": {
+    "message": "Zulassen"
+  },
+  "actionCleanOnClose": {
+    "message": "Beim Schließen löschen"
+  },
+  "actionCleanImmediately": {
+    "message": "Sofort löschen"
+  },
+  "defaultForUnlisted": {
+    "message": "Standard für nicht gelistete Domains"
+  },
+  "protectLogins": {
+    "message": "Logins vor Auto-Löschung schützen"
+  },
+  "recommended": {
+    "message": "(empfohlen)"
+  },
+  "protectLoginsTitle": {
+    "message": "Löscht niemals automatisch Cookies, die wie Login-/Sitzungscookies aussehen, sofern du keine ausdrückliche Sofort-Löschen-Regel festlegst."
+  },
+  "alsoClearSiteData": {
+    "message": "Auch Websitedaten löschen"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, Cache)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Beim Löschen der Cookies einer Website auch deren localStorage, IndexedDB und Cache löschen. Fordert beim Aktivieren eine zusätzliche Browser-Berechtigung an."
+  },
+  "clearAllNow": {
+    "message": "Jetzt alle Cookies löschen"
+  },
+  "rulesHeading": {
+    "message": "Regeln"
+  },
+  "patternEmptyError": {
+    "message": "Das Muster darf nicht leer sein."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (exakt) oder *.example.com (Subdomains)"
+  },
+  "domainPatternAria": {
+    "message": "Domain-Muster"
+  },
+  "actionAria": {
+    "message": "Aktion"
+  },
+  "buttonAdd": {
+    "message": "Hinzufügen"
+  },
+  "emptyRulesTrust": {
+    "message": "Noch keine Regeln. Vertraue oben der aktuellen Website oder füge unten eine Domain hinzu – alles andere folgt dem Standard „$1“."
+  },
+  "emptyRulesAdd": {
+    "message": "Noch keine Regeln. Füge unten eine Domain hinzu – alles andere folgt dem Standard „$1“."
+  },
+  "deleteRuleAria": {
+    "message": "Regel $1 löschen"
+  },
+  "deleteRuleTitle": {
+    "message": "Regel löschen"
+  },
+  "recentActivity": {
+    "message": "Letzte Aktivität"
+  },
+  "emptyAudit": {
+    "message": "Noch keine Löschereignisse. Guardian arbeitet im Hintergrund – Ereignisse erscheinen hier, sobald Cookies gelöscht oder beobachtet werden."
+  },
+  "trustThisSite": {
+    "message": "Dieser Website vertrauen"
+  },
+  "clearEverything": {
+    "message": "Alles löschen"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "optionsButton": {
+    "message": "Optionen"
+  },
+  "loading": {
+    "message": "Wird geladen…"
+  },
+  "errorLoadGuardian": {
+    "message": "Guardian konnte nicht geladen werden."
+  },
+  "clearAllTitle": {
+    "message": "Jetzt alle Cookies löschen?"
+  },
+  "clearAllMessage": {
+    "message": "Dies löscht sofort jedes Cookie auf allen Websites, einschließlich vertrauenswürdiger Websites und Logins – du wirst überall abgemeldet. Kann nicht rückgängig gemacht werden."
+  },
+  "clearing": {
+    "message": "Wird gelöscht…"
+  },
+  "clearedCookies": {
+    "message": "$1 Cookies gelöscht."
+  },
+  "clearFailed": {
+    "message": "Löschen fehlgeschlagen: $1"
+  },
+  "justNow": {
+    "message": "gerade eben"
+  },
+  "minutesAgo": {
+    "message": "vor $1 Min."
+  },
+  "hoursAgo": {
+    "message": "vor $1 Std."
+  },
+  "obWelcome": {
+    "message": "Willkommen bei CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Schließe einen Tab, und die Cookies, die die Website hinterlassen hat, sind binnen Sekunden weg — außer bei den Websites, denen du vertraust. Hier die 30-Sekunden-Version."
+  },
+  "obWhatDoes": {
+    "message": "Was Guardian tut"
+  },
+  "obDoes1": {
+    "message": "Löscht die Cookies einer Website, kurz nachdem du deren letzten Tab geschlossen hast."
+  },
+  "obDoes2": {
+    "message": "Führt alle 30 Sekunden einen Sicherheits-Sweep aus, damit nichts durchrutscht."
+  },
+  "obDoes3": {
+    "message": "Führt ein sichtbares Aktivitätsprotokoll — du siehst genau, was wann gelöscht wurde."
+  },
+  "obDoes4": {
+    "message": "Lässt vertrauenswürdige Websites völlig in Ruhe."
+  },
+  "obWhatNever": {
+    "message": "Was es niemals tut"
+  },
+  "obNever1": {
+    "message": "Liest oder ändert niemals den Inhalt von Webseiten."
+  },
+  "obNever2": {
+    "message": "Lädt deine Cookies, Regeln oder Aktivität niemals irgendwohin hoch."
+  },
+  "obNever3": {
+    "message": "Keine Analyse, keine Telemetrie, keine Skripte von Dritten."
+  },
+  "obNever4": {
+    "message": "Meldet dich niemals von einer Website ab, die du gerade nutzt."
+  },
+  "obPickHeading": {
+    "message": "Lege fest, wie Guardian mit nicht gelisteten Websites umgeht"
+  },
+  "obPickLede": {
+    "message": "Du kannst das jederzeit im Popup ändern. Vertrauenswürdige Websites bleiben immer angemeldet."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Beim Schließen des Tabs löschen"
+  },
+  "obChoiceCleanSub": {
+    "message": "Empfohlen. Löscht Cookies nicht gelisteter Websites automatisch, sobald du fertig bist."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Sicherer Modus (alles behalten)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Löscht nur Cookies von Websites, für die du ausdrücklich eine Löschregel hinzufügst."
+  },
+  "obCurrentDefault": {
+    "message": "Aktueller Standard:"
+  },
+  "obLoginProtOn": {
+    "message": "· Login-Schutz aktiv"
+  },
+  "obTrustHeading": {
+    "message": "Warum du vertrauen kannst"
+  },
+  "obTrustOpenLead": {
+    "message": "Open Source."
+  },
+  "obTrustOpenRest": {
+    "message": "Jede Zeile liegt auf GitHub unter der MIT-Lizenz — lies sie, baue sie und prüfe, ob die veröffentlichte Erweiterung dem Quellcode entspricht."
+  },
+  "obTrustSaleLead": {
+    "message": "Niemals zu verkaufen."
+  },
+  "obTrustSaleRest": {
+    "message": "Wir haben ein öffentliches, bindendes Versprechen gegeben, die Erweiterung oder deine Daten niemals zu verkaufen. Brechen wir es, kannst du uns forken."
+  },
+  "obTrustVerifyLead": {
+    "message": "Überprüfbar."
+  },
+  "obTrustVerifyRest": {
+    "message": "Wir verschleiern unseren Code nicht und veröffentlichen eine Anleitung, mit der du den Build selbst prüfen kannst."
+  },
+  "linkSource": {
+    "message": "Quellcode auf GitHub →"
+  },
+  "linkPledge": {
+    "message": "Nicht-Verkaufs-Versprechen →"
+  },
+  "linkVerify": {
+    "message": "So überprüfst du diesen Build →"
+  },
+  "obFooter": {
+    "message": "Hefte Guardian an deine Symbolleiste, um das Popup jederzeit zu öffnen — Regeln hinzufügen, der aktuellen Website mit einem Klick vertrauen und das Aktivitätsprotokoll verfolgen."
+  },
+  "optHeroDesc": {
+    "message": "MV3-natives Cookie-Auto-Löschen. Schließe einen Tab, und die hinterlassenen Cookies sind binnen Sekunden weg — außer bei vertrauenswürdigen Websites. Alles läuft auf deinem Gerät."
+  },
+  "optPillar1Lead": {
+    "message": "Open Source & prüfbar."
+  },
+  "optPillar1Rest": {
+    "message": "MIT-lizenziert; lies den Code, baue ihn neu und bestätige, dass die veröffentlichte Erweiterung dem Quellcode entspricht."
+  },
+  "optPillar2Lead": {
+    "message": "Es zeigt, was es tut."
+  },
+  "optPillar2Rest": {
+    "message": "Das Aktivitätsprotokoll im Popup hält genau fest, welche Cookies wann gelöscht wurden — automatisch heißt nie Blackbox."
+  },
+  "optPillar3Lead": {
+    "message": "Niemals zu verkaufen."
+  },
+  "optPillar3Rest": {
+    "message": "Ein öffentliches, bindendes Versprechen, die Erweiterung oder deine Daten niemals zu verkaufen. Brechen wir es, forke uns."
+  },
+  "optVerifyHeading": {
+    "message": "Überprüfe diesen Build selbst"
+  },
+  "optVerifyDesc": {
+    "message": "Wir verschleiern unseren Code nicht. Du kannst das veröffentlichte JavaScript lesen, aus dem Quellcode neu bauen und vergleichen oder das Paket mit VirusTotal scannen. Die Anleitung führt durch jede Option."
+  },
+  "optSettingsHeading": {
+    "message": "Einstellungen"
+  },
+  "optSettingsPre": {
+    "message": "Löschregeln, die Standardaktion und der Login-Schutz befinden sich im Popup der Erweiterung — klicke auf das Symbol von"
+  },
+  "optSettingsPost": {
+    "message": "in der Symbolleiste deines Browsers, um es zu öffnen. Diese Seite enthält Informationen zu Vertrauen und Verifizierung."
+  },
+  "optReplayGuide": {
+    "message": "Willkommensanleitung erneut ansehen →"
+  },
+  "themeToggle": {
+    "message": "Design wechseln"
+  },
+  "cleanupDegraded": {
+    "message": "Bereinigung eingeschränkt – der letzte Durchlauf ist fehlgeschlagen. Der Schutz ist möglicherweise unvollständig."
+  },
+  "dismissError": {
+    "message": "Schließen"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Sprache"
+  },
+  "langSystem": {
+    "message": "System (Browser)"
+  },
+  "obProtectedTitle": {
+    "message": "Du bist geschützt."
+  },
+  "obProtectedLede": {
+    "message": "Guardian läuft unauffällig im Hintergrund. Alles bleibt auf deinem Gerät – kein Konto zum Starten nötig."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Standardverhalten:"
+  },
+  "obNavBack": {
+    "message": "Zurück"
+  },
+  "obNavContinue": {
+    "message": "Weiter"
+  },
+  "obNavGetStarted": {
+    "message": "Loslegen"
+  },
+  "obStepProgress": {
+    "message": "Schritt $1 von $2"
+  },
+  "obDoneTitle": {
+    "message": "Fertig – Guardian wird geöffnet…"
+  },
+  "obDonePin": {
+    "message": "Hefte die Erweiterung an deine Symbolleiste, damit sie immer nur einen Klick entfernt ist."
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "Hapus otomatis cookie MV3: izinkan domain pilihan, bersihkan sisanya — sumber terbuka."
+  },
+  "tagline": {
+    "message": "Izinkan berdasarkan domain, bersihkan sisanya saat tab ditutup."
+  },
+  "thisSite": {
+    "message": "Situs ini"
+  },
+  "trusted": {
+    "message": "✓ Tepercaya"
+  },
+  "ruleTitle": {
+    "message": "Aturan: $1"
+  },
+  "actionAllow": {
+    "message": "Izinkan"
+  },
+  "actionCleanOnClose": {
+    "message": "Bersihkan saat ditutup"
+  },
+  "actionCleanImmediately": {
+    "message": "Bersihkan segera"
+  },
+  "defaultForUnlisted": {
+    "message": "Bawaan untuk domain yang tidak terdaftar"
+  },
+  "protectLogins": {
+    "message": "Lindungi login dari penghapusan otomatis"
+  },
+  "recommended": {
+    "message": "(disarankan)"
+  },
+  "protectLoginsTitle": {
+    "message": "Jangan pernah menghapus otomatis cookie yang tampak seperti cookie login/sesi, kecuali Anda menetapkan aturan bersihkan-segera secara eksplisit."
+  },
+  "alsoClearSiteData": {
+    "message": "Hapus juga data situs"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, tembolok)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Saat membersihkan cookie suatu situs, hapus juga localStorage, IndexedDB, dan temboloknya. Meminta izin peramban tambahan saat diaktifkan."
+  },
+  "clearAllNow": {
+    "message": "Hapus semua cookie sekarang"
+  },
+  "rulesHeading": {
+    "message": "Aturan"
+  },
+  "patternEmptyError": {
+    "message": "Pola tidak boleh kosong."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (persis) atau *.example.com (subdomain)"
+  },
+  "domainPatternAria": {
+    "message": "Pola domain"
+  },
+  "actionAria": {
+    "message": "Tindakan"
+  },
+  "buttonAdd": {
+    "message": "Tambah"
+  },
+  "emptyRulesTrust": {
+    "message": "Belum ada aturan. Percayai situs saat ini di atas, atau tambahkan domain di bawah — sisanya mengikuti bawaan “$1”."
+  },
+  "emptyRulesAdd": {
+    "message": "Belum ada aturan. Tambahkan domain di bawah — sisanya mengikuti bawaan “$1”."
+  },
+  "deleteRuleAria": {
+    "message": "Hapus aturan $1"
+  },
+  "deleteRuleTitle": {
+    "message": "Hapus aturan"
+  },
+  "recentActivity": {
+    "message": "Aktivitas terbaru"
+  },
+  "emptyAudit": {
+    "message": "Belum ada peristiwa pembersihan. Guardian bekerja diam-diam — peristiwa muncul di sini setelah cookie dibersihkan atau diamati."
+  },
+  "trustThisSite": {
+    "message": "Percayai situs ini"
+  },
+  "clearEverything": {
+    "message": "Hapus semuanya"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "optionsButton": {
+    "message": "Opsi"
+  },
+  "loading": {
+    "message": "Memuat…"
+  },
+  "errorLoadGuardian": {
+    "message": "Tidak dapat memuat Guardian."
+  },
+  "clearAllTitle": {
+    "message": "Hapus semua cookie sekarang?"
+  },
+  "clearAllMessage": {
+    "message": "Ini segera menghapus setiap cookie di setiap situs, termasuk situs tepercaya dan login — Anda akan keluar di mana-mana. Tindakan ini tidak dapat dibatalkan."
+  },
+  "clearing": {
+    "message": "Menghapus…"
+  },
+  "clearedCookies": {
+    "message": "$1 cookie dihapus."
+  },
+  "clearFailed": {
+    "message": "Gagal menghapus: $1"
+  },
+  "justNow": {
+    "message": "baru saja"
+  },
+  "minutesAgo": {
+    "message": "$1 mnt lalu"
+  },
+  "hoursAgo": {
+    "message": "$1 jam lalu"
+  },
+  "obWelcome": {
+    "message": "Selamat datang di CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Tutup sebuah tab, dan cookie yang ditinggalkan situs itu lenyap dalam hitungan detik — kecuali situs yang Anda pilih untuk dipercaya. Berikut versi 30 detiknya."
+  },
+  "obWhatDoes": {
+    "message": "Apa yang dilakukan Guardian"
+  },
+  "obDoes1": {
+    "message": "Menghapus cookie suatu situs sesaat setelah Anda menutup tab terakhirnya."
+  },
+  "obDoes2": {
+    "message": "Menjalankan penyapuan keamanan setiap 30 detik agar tidak ada yang lolos."
+  },
+  "obDoes3": {
+    "message": "Menyimpan log aktivitas yang terlihat — Anda dapat melihat persis apa yang dibersihkan, dan kapan."
+  },
+  "obDoes4": {
+    "message": "Membiarkan situs tepercaya sepenuhnya tak tersentuh."
+  },
+  "obWhatNever": {
+    "message": "Apa yang tidak pernah dilakukannya"
+  },
+  "obNever1": {
+    "message": "Tidak pernah membaca atau mengubah isi halaman web."
+  },
+  "obNever2": {
+    "message": "Tidak pernah mengunggah cookie, aturan, atau aktivitas Anda ke mana pun."
+  },
+  "obNever3": {
+    "message": "Tanpa analitik, tanpa telemetri, tanpa skrip pihak ketiga."
+  },
+  "obNever4": {
+    "message": "Tidak pernah membuat Anda keluar dari situs yang sedang Anda gunakan."
+  },
+  "obPickHeading": {
+    "message": "Pilih cara Guardian memperlakukan situs yang belum Anda daftarkan"
+  },
+  "obPickLede": {
+    "message": "Anda dapat mengubah ini kapan saja dari popup. Situs tepercaya selalu tetap masuk."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Bersihkan saat tab ditutup"
+  },
+  "obChoiceCleanSub": {
+    "message": "Disarankan. Hapus otomatis cookie situs yang tidak terdaftar setelah Anda selesai dengannya."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Mode aman (simpan semuanya)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Hanya hapus cookie situs yang Anda tambahkan aturan pembersihannya secara eksplisit."
+  },
+  "obCurrentDefault": {
+    "message": "Bawaan saat ini:"
+  },
+  "obLoginProtOn": {
+    "message": "· perlindungan login aktif"
+  },
+  "obTrustHeading": {
+    "message": "Mengapa Anda dapat memercayainya"
+  },
+  "obTrustOpenLead": {
+    "message": "Sumber terbuka."
+  },
+  "obTrustOpenRest": {
+    "message": "Setiap baris ada di GitHub di bawah lisensi MIT — baca, bangun, dan verifikasi bahwa ekstensi yang diterbitkan cocok dengan sumbernya."
+  },
+  "obTrustSaleLead": {
+    "message": "Tidak pernah dijual."
+  },
+  "obTrustSaleRest": {
+    "message": "Kami telah membuat janji publik yang mengikat untuk tidak pernah menjual ekstensi atau data Anda. Jika kami melanggarnya, Anda dapat mem-fork kami."
+  },
+  "obTrustVerifyLead": {
+    "message": "Dapat diverifikasi."
+  },
+  "obTrustVerifyRest": {
+    "message": "Kami tidak mengaburkan kode kami, dan kami menerbitkan panduan untuk memeriksa build itu sendiri."
+  },
+  "linkSource": {
+    "message": "Sumber di GitHub →"
+  },
+  "linkPledge": {
+    "message": "Janji tidak menjual →"
+  },
+  "linkVerify": {
+    "message": "Cara memverifikasi build ini →"
+  },
+  "obFooter": {
+    "message": "Sematkan Guardian ke bilah alat Anda untuk membuka popup kapan saja — tambahkan aturan, percayai situs saat ini dengan satu klik, dan pantau log aktivitas."
+  },
+  "optHeroDesc": {
+    "message": "Penghapus otomatis cookie native MV3. Tutup sebuah tab dan cookie yang ditinggalkan situs itu lenyap dalam hitungan detik — kecuali situs yang Anda percayai. Semuanya berjalan di perangkat Anda."
+  },
+  "optPillar1Lead": {
+    "message": "Sumber terbuka & dapat diaudit."
+  },
+  "optPillar1Rest": {
+    "message": "Berlisensi MIT; baca kodenya, bangun ulang, dan pastikan ekstensi yang diterbitkan cocok dengan sumbernya."
+  },
+  "optPillar2Lead": {
+    "message": "Menunjukkan cara kerjanya."
+  },
+  "optPillar2Rest": {
+    "message": "Log aktivitas pada popup mencatat persis cookie mana yang dibersihkan dan kapan — otomatis tidak pernah berarti kotak hitam."
+  },
+  "optPillar3Lead": {
+    "message": "Tidak pernah dijual."
+  },
+  "optPillar3Rest": {
+    "message": "Janji publik yang mengikat untuk tidak pernah menjual ekstensi atau data Anda. Jika kami melanggarnya, fork kami."
+  },
+  "optVerifyHeading": {
+    "message": "Verifikasi build ini sendiri"
+  },
+  "optVerifyDesc": {
+    "message": "Kami tidak mengaburkan kode kami. Anda dapat membaca JavaScript yang dikirim, membangun ulang dari sumber dan membandingkan, atau memindai paketnya dengan VirusTotal. Panduan ini memandu setiap opsi."
+  },
+  "optSettingsHeading": {
+    "message": "Pengaturan"
+  },
+  "optSettingsPre": {
+    "message": "Aturan pembersihan, tindakan bawaan, dan perlindungan login ada di popup ekstensi — klik ikon"
+  },
+  "optSettingsPost": {
+    "message": "di bilah alat peramban Anda untuk membukanya. Halaman ini untuk informasi kepercayaan & verifikasi."
+  },
+  "optReplayGuide": {
+    "message": "Putar ulang panduan selamat datang →"
+  },
+  "themeToggle": {
+    "message": "Ganti tema"
+  },
+  "cleanupDegraded": {
+    "message": "Pembersihan menurun — sapuan terakhir gagal. Perlindungan mungkin tidak lengkap."
+  },
+  "dismissError": {
+    "message": "Tutup"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Bahasa"
+  },
+  "langSystem": {
+    "message": "Sistem (peramban)"
+  },
+  "obProtectedTitle": {
+    "message": "Anda terlindungi."
+  },
+  "obProtectedLede": {
+    "message": "Guardian mengawasi diam-diam di latar belakang. Semuanya tetap di perangkat Anda — tidak perlu akun untuk memulai."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Perilaku default:"
+  },
+  "obNavBack": {
+    "message": "Kembali"
+  },
+  "obNavContinue": {
+    "message": "Lanjutkan"
+  },
+  "obNavGetStarted": {
+    "message": "Mulai"
+  },
+  "obStepProgress": {
+    "message": "Langkah $1 dari $2"
+  },
+  "obDoneTitle": {
+    "message": "Semua siap — membuka Guardian…"
+  },
+  "obDonePin": {
+    "message": "Sematkan ekstensi ke bilah alat Anda agar selalu tinggal satu klik."
+  }
+}

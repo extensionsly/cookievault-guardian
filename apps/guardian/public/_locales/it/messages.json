@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "Eliminazione automatica dei cookie MV3: aggiungi domini alla whitelist, pulisci il resto — open source."
+  },
+  "tagline": {
+    "message": "Aggiungi domini alla whitelist, pulisci tutto il resto alla chiusura della scheda."
+  },
+  "thisSite": {
+    "message": "Questo sito"
+  },
+  "trusted": {
+    "message": "✓ Attendibile"
+  },
+  "ruleTitle": {
+    "message": "Regola: $1"
+  },
+  "actionAllow": {
+    "message": "Consenti"
+  },
+  "actionCleanOnClose": {
+    "message": "Pulisci alla chiusura"
+  },
+  "actionCleanImmediately": {
+    "message": "Pulisci subito"
+  },
+  "defaultForUnlisted": {
+    "message": "Predefinito per i domini non elencati"
+  },
+  "protectLogins": {
+    "message": "Proteggi gli accessi dall'eliminazione automatica"
+  },
+  "recommended": {
+    "message": "(consigliato)"
+  },
+  "protectLoginsTitle": {
+    "message": "Non eliminare mai automaticamente i cookie che sembrano cookie di accesso/sessione, a meno che tu non imposti una regola esplicita di pulizia immediata."
+  },
+  "alsoClearSiteData": {
+    "message": "Cancella anche i dati del sito"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, cache)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Quando pulisci i cookie di un sito, cancella anche il suo localStorage, IndexedDB e la cache. Quando è attiva, richiede un'autorizzazione aggiuntiva del browser."
+  },
+  "clearAllNow": {
+    "message": "Cancella tutti i cookie ora"
+  },
+  "rulesHeading": {
+    "message": "Regole"
+  },
+  "patternEmptyError": {
+    "message": "Il pattern non può essere vuoto."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (esatto) o *.example.com (sottodomini)"
+  },
+  "domainPatternAria": {
+    "message": "Pattern di dominio"
+  },
+  "actionAria": {
+    "message": "Azione"
+  },
+  "buttonAdd": {
+    "message": "Aggiungi"
+  },
+  "emptyRulesTrust": {
+    "message": "Ancora nessuna regola. Rendi attendibile il sito corrente qui sopra, oppure aggiungi un dominio qui sotto — tutto il resto segue il valore predefinito “$1”."
+  },
+  "emptyRulesAdd": {
+    "message": "Ancora nessuna regola. Aggiungi un dominio qui sotto — tutto il resto segue il valore predefinito “$1”."
+  },
+  "deleteRuleAria": {
+    "message": "Elimina la regola $1"
+  },
+  "deleteRuleTitle": {
+    "message": "Elimina regola"
+  },
+  "recentActivity": {
+    "message": "Attività recente"
+  },
+  "emptyAudit": {
+    "message": "Ancora nessun evento di pulizia. Guardian lavora silenziosamente — gli eventi appaiono qui una volta che i cookie vengono puliti o osservati."
+  },
+  "trustThisSite": {
+    "message": "Rendi attendibile questo sito"
+  },
+  "clearEverything": {
+    "message": "Cancella tutto"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "optionsButton": {
+    "message": "Opzioni"
+  },
+  "loading": {
+    "message": "Caricamento…"
+  },
+  "errorLoadGuardian": {
+    "message": "Impossibile caricare Guardian."
+  },
+  "clearAllTitle": {
+    "message": "Cancellare tutti i cookie ora?"
+  },
+  "clearAllMessage": {
+    "message": "Questa operazione elimina immediatamente tutti i cookie su ogni sito, inclusi i siti attendibili e gli accessi — verrai disconnesso ovunque. Non può essere annullata."
+  },
+  "clearing": {
+    "message": "Cancellazione…"
+  },
+  "clearedCookies": {
+    "message": "$1 cookie cancellati."
+  },
+  "clearFailed": {
+    "message": "Cancellazione non riuscita: $1"
+  },
+  "justNow": {
+    "message": "proprio ora"
+  },
+  "minutesAgo": {
+    "message": "$1 min fa"
+  },
+  "hoursAgo": {
+    "message": "$1 h fa"
+  },
+  "obWelcome": {
+    "message": "Benvenuto in CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Chiudi una scheda e i cookie lasciati da quel sito spariscono in pochi secondi — tranne i siti che scegli di rendere attendibili. Ecco la versione in 30 secondi."
+  },
+  "obWhatDoes": {
+    "message": "Cosa fa Guardian"
+  },
+  "obDoes1": {
+    "message": "Elimina i cookie di un sito pochi istanti dopo che ne chiudi l'ultima scheda."
+  },
+  "obDoes2": {
+    "message": "Esegue una scansione di sicurezza ogni 30 secondi in modo che non sfugga nulla."
+  },
+  "obDoes3": {
+    "message": "Mantiene un registro delle attività visibile — puoi vedere esattamente cosa è stato pulito e quando."
+  },
+  "obDoes4": {
+    "message": "Lascia completamente intatti i siti attendibili."
+  },
+  "obWhatNever": {
+    "message": "Cosa non fa mai"
+  },
+  "obNever1": {
+    "message": "Non legge né modifica mai il contenuto delle pagine web."
+  },
+  "obNever2": {
+    "message": "Non carica mai i tuoi cookie, le tue regole o la tua attività da nessuna parte."
+  },
+  "obNever3": {
+    "message": "Nessuna analisi, nessuna telemetria, nessuno script di terze parti."
+  },
+  "obNever4": {
+    "message": "Non ti disconnette mai da un sito che stai usando attivamente."
+  },
+  "obPickHeading": {
+    "message": "Scegli come Guardian tratta i siti che non hai elencato"
+  },
+  "obPickLede": {
+    "message": "Puoi cambiarlo in qualsiasi momento dal popup. I siti attendibili restano sempre connessi."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Pulisci alla chiusura della scheda"
+  },
+  "obChoiceCleanSub": {
+    "message": "Consigliato. Elimina automaticamente i cookie dei siti non elencati quando hai finito di usarli."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Modalità sicura (mantieni tutto)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Elimina i cookie solo per i siti per cui aggiungi esplicitamente una regola di pulizia."
+  },
+  "obCurrentDefault": {
+    "message": "Predefinito attuale:"
+  },
+  "obLoginProtOn": {
+    "message": "· protezione accessi attiva"
+  },
+  "obTrustHeading": {
+    "message": "Perché puoi fidarti"
+  },
+  "obTrustOpenLead": {
+    "message": "Open source."
+  },
+  "obTrustOpenRest": {
+    "message": "Ogni riga è su GitHub sotto licenza MIT — leggila, compilala e verifica che l'estensione pubblicata corrisponda al sorgente."
+  },
+  "obTrustSaleLead": {
+    "message": "Mai in vendita."
+  },
+  "obTrustSaleRest": {
+    "message": "Abbiamo preso un impegno pubblico e vincolante di non vendere mai l'estensione o i tuoi dati. Se lo infrangiamo, puoi farne un fork."
+  },
+  "obTrustVerifyLead": {
+    "message": "Verificabile."
+  },
+  "obTrustVerifyRest": {
+    "message": "Non offuschiamo il nostro codice e pubblichiamo una guida per verificare tu stesso la build."
+  },
+  "linkSource": {
+    "message": "Sorgente su GitHub →"
+  },
+  "linkPledge": {
+    "message": "Impegno di non vendita →"
+  },
+  "linkVerify": {
+    "message": "Come verificare questa build →"
+  },
+  "obFooter": {
+    "message": "Fissa Guardian alla barra degli strumenti per aprire il popup in qualsiasi momento — aggiungi regole, rendi attendibile il sito corrente con un clic e osserva il registro delle attività."
+  },
+  "optHeroDesc": {
+    "message": "Eliminazione automatica dei cookie nativa MV3. Chiudi una scheda e i cookie lasciati da quel sito spariscono in pochi secondi — tranne i siti che ritieni attendibili. Tutto avviene sul tuo dispositivo."
+  },
+  "optPillar1Lead": {
+    "message": "Open source e verificabile."
+  },
+  "optPillar1Rest": {
+    "message": "Sotto licenza MIT; leggi il codice, ricompilalo e conferma che l'estensione pubblicata corrisponda al sorgente."
+  },
+  "optPillar2Lead": {
+    "message": "Tutto in chiaro."
+  },
+  "optPillar2Rest": {
+    "message": "Il registro delle attività del popup riporta esattamente quali cookie sono stati puliti e quando — automatico non significa mai scatola nera."
+  },
+  "optPillar3Lead": {
+    "message": "Mai in vendita."
+  },
+  "optPillar3Rest": {
+    "message": "Un impegno pubblico e vincolante di non vendere mai l'estensione o i tuoi dati. Se lo infrangiamo, fanne un fork."
+  },
+  "optVerifyHeading": {
+    "message": "Verifica tu stesso questa build"
+  },
+  "optVerifyDesc": {
+    "message": "Non offuschiamo il nostro codice. Puoi leggere il JavaScript distribuito, ricompilare dal sorgente e confrontare, oppure analizzare il pacchetto con VirusTotal. La guida illustra ciascuna opzione."
+  },
+  "optSettingsHeading": {
+    "message": "Impostazioni"
+  },
+  "optSettingsPre": {
+    "message": "Le regole di pulizia, l'azione predefinita e la protezione degli accessi si trovano nel popup dell'estensione — clicca sull'icona"
+  },
+  "optSettingsPost": {
+    "message": "nella barra degli strumenti del browser per aprirlo. Questa pagina è dedicata alle informazioni su affidabilità e verifica."
+  },
+  "optReplayGuide": {
+    "message": "Rivedi la guida di benvenuto →"
+  },
+  "themeToggle": {
+    "message": "Cambia tema"
+  },
+  "cleanupDegraded": {
+    "message": "La pulizia è degradata — l'ultima scansione non è riuscita. La protezione potrebbe essere incompleta."
+  },
+  "dismissError": {
+    "message": "Ignora"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Lingua"
+  },
+  "langSystem": {
+    "message": "Sistema (browser)"
+  },
+  "obProtectedTitle": {
+    "message": "Sei protetto."
+  },
+  "obProtectedLede": {
+    "message": "Guardian veglia silenziosamente in background. Tutto resta sul tuo dispositivo — nessun account necessario per iniziare."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Comportamento predefinito:"
+  },
+  "obNavBack": {
+    "message": "Indietro"
+  },
+  "obNavContinue": {
+    "message": "Continua"
+  },
+  "obNavGetStarted": {
+    "message": "Inizia"
+  },
+  "obStepProgress": {
+    "message": "Passo $1 di $2"
+  },
+  "obDoneTitle": {
+    "message": "Tutto pronto — apertura di Guardian…"
+  },
+  "obDonePin": {
+    "message": "Fissa l'estensione alla barra degli strumenti per averla sempre a portata di clic."
+  }
+}

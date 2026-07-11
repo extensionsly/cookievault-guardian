@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 対応の Cookie 自動削除：ドメインをホワイトリストに登録し、それ以外を削除。オープンソース。"
+  },
+  "tagline": {
+    "message": "ドメインをホワイトリスト化し、タブを閉じたら残りを自動削除。"
+  },
+  "thisSite": {
+    "message": "このサイト"
+  },
+  "trusted": {
+    "message": "✓ 信頼済み"
+  },
+  "ruleTitle": {
+    "message": "ルール：$1"
+  },
+  "actionAllow": {
+    "message": "許可"
+  },
+  "actionCleanOnClose": {
+    "message": "閉じたら削除"
+  },
+  "actionCleanImmediately": {
+    "message": "即時削除"
+  },
+  "defaultForUnlisted": {
+    "message": "未登録ドメインの既定動作"
+  },
+  "protectLogins": {
+    "message": "ログインを自動削除から保護"
+  },
+  "recommended": {
+    "message": "（推奨）"
+  },
+  "protectLoginsTitle": {
+    "message": "明示的に「即時削除」ルールを設定しない限り、ログイン/セッションらしき Cookie は自動削除しません。"
+  },
+  "alsoClearSiteData": {
+    "message": "サイトデータも削除"
+  },
+  "siteDataKinds": {
+    "message": "（localStorage、IndexedDB、キャッシュ）"
+  },
+  "clearSiteDataTitle": {
+    "message": "サイトの Cookie を削除する際、その localStorage・IndexedDB・キャッシュも削除します。有効化時に追加のブラウザ権限を要求します。"
+  },
+  "clearAllNow": {
+    "message": "今すぐすべての Cookie を削除"
+  },
+  "rulesHeading": {
+    "message": "ルール"
+  },
+  "patternEmptyError": {
+    "message": "パターンを空にはできません。"
+  },
+  "patternPlaceholder": {
+    "message": "example.com（完全一致）または *.example.com（サブドメイン）"
+  },
+  "domainPatternAria": {
+    "message": "ドメインパターン"
+  },
+  "actionAria": {
+    "message": "動作"
+  },
+  "buttonAdd": {
+    "message": "追加"
+  },
+  "emptyRulesTrust": {
+    "message": "まだルールがありません。上で現在のサイトを信頼するか、下でドメインを追加してください。それ以外はすべて既定の「$1」に従います。"
+  },
+  "emptyRulesAdd": {
+    "message": "まだルールがありません。下でドメインを追加してください。それ以外はすべて既定の「$1」に従います。"
+  },
+  "deleteRuleAria": {
+    "message": "ルール $1 を削除"
+  },
+  "deleteRuleTitle": {
+    "message": "ルールを削除"
+  },
+  "recentActivity": {
+    "message": "最近のアクティビティ"
+  },
+  "emptyAudit": {
+    "message": "まだクリーンアップ イベントはありません。Guardian は静かに動作します。Cookie が削除または検出されると、ここに表示されます。"
+  },
+  "trustThisSite": {
+    "message": "このサイトを信頼"
+  },
+  "clearEverything": {
+    "message": "すべて削除"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "optionsButton": {
+    "message": "オプション"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "errorLoadGuardian": {
+    "message": "Guardian を読み込めませんでした。"
+  },
+  "clearAllTitle": {
+    "message": "今すぐすべての Cookie を削除しますか？"
+  },
+  "clearAllMessage": {
+    "message": "すべてのサイトのすべての Cookie（信頼済みサイトやログインを含む）を直ちに削除します。すべてのサイトからログアウトされます。この操作は取り消せません。"
+  },
+  "clearing": {
+    "message": "削除中…"
+  },
+  "clearedCookies": {
+    "message": "$1 個の Cookie を削除しました。"
+  },
+  "clearFailed": {
+    "message": "削除に失敗しました：$1"
+  },
+  "justNow": {
+    "message": "たった今"
+  },
+  "minutesAgo": {
+    "message": "$1 分前"
+  },
+  "hoursAgo": {
+    "message": "$1 時間前"
+  },
+  "obWelcome": {
+    "message": "CookieVault Guardian へようこそ"
+  },
+  "obLede": {
+    "message": "タブを閉じれば、そのサイトが残した Cookie は数秒で消えます——あなたが信頼を選んだサイトは別です。30 秒で分かる概要です。"
+  },
+  "obWhatDoes": {
+    "message": "Guardian にできること"
+  },
+  "obDoes1": {
+    "message": "サイトの最後のタブを閉じた直後に、そのサイトの Cookie を削除します。"
+  },
+  "obDoes2": {
+    "message": "30 秒ごとに安全のための一掃スキャンを実行し、取りこぼしを防ぎます。"
+  },
+  "obDoes3": {
+    "message": "見える化された活動ログを保持します——何がいつ削除されたか正確に確認できます。"
+  },
+  "obDoes4": {
+    "message": "信頼済みのサイトには一切手を触れません。"
+  },
+  "obWhatNever": {
+    "message": "決してしないこと"
+  },
+  "obNever1": {
+    "message": "ウェブページの内容を読み取ったり変更したりしません。"
+  },
+  "obNever2": {
+    "message": "あなたの Cookie・ルール・活動をどこにもアップロードしません。"
+  },
+  "obNever3": {
+    "message": "分析なし、テレメトリなし、サードパーティ スクリプトなし。"
+  },
+  "obNever4": {
+    "message": "使用中のサイトからログアウトさせることはありません。"
+  },
+  "obPickHeading": {
+    "message": "未登録サイトの扱い方を選んでください"
+  },
+  "obPickLede": {
+    "message": "ポップアップからいつでも変更できます。信頼済みのサイトは常にログインを維持します。"
+  },
+  "obChoiceCleanTitle": {
+    "message": "タブを閉じたら削除"
+  },
+  "obChoiceCleanSub": {
+    "message": "推奨。用が済んだら、未登録サイトの Cookie を自動削除します。"
+  },
+  "obChoiceSafeTitle": {
+    "message": "セーフモード（すべて保持）"
+  },
+  "obChoiceSafeSub": {
+    "message": "明示的にクリーンアップ ルールを追加したサイトの Cookie のみ削除します。"
+  },
+  "obCurrentDefault": {
+    "message": "現在の既定："
+  },
+  "obLoginProtOn": {
+    "message": "· ログイン保護 オン"
+  },
+  "obTrustHeading": {
+    "message": "信頼できる理由"
+  },
+  "obTrustOpenLead": {
+    "message": "オープンソース。"
+  },
+  "obTrustOpenRest": {
+    "message": "全コードが MIT ライセンスで GitHub に公開されています——読み、自分でビルドし、公開された拡張機能がソースと一致することを検証できます。"
+  },
+  "obTrustSaleLead": {
+    "message": "決して売りません。"
+  },
+  "obTrustSaleRest": {
+    "message": "拡張機能やあなたのデータを決して売らないという公開かつ拘束力ある誓約をしています。破れば、フォークしてください。"
+  },
+  "obTrustVerifyLead": {
+    "message": "検証可能。"
+  },
+  "obTrustVerifyRest": {
+    "message": "コードを難読化せず、ビルドを自分で確認するためのガイドも公開しています。"
+  },
+  "linkSource": {
+    "message": "GitHub のソース →"
+  },
+  "linkPledge": {
+    "message": "非売の誓約 →"
+  },
+  "linkVerify": {
+    "message": "このビルドの検証方法 →"
+  },
+  "obFooter": {
+    "message": "Guardian をツールバーに固定すれば、いつでもポップアップを開けます——ルールを追加し、ワンクリックで現在のサイトを信頼し、活動ログを確認できます。"
+  },
+  "optHeroDesc": {
+    "message": "MV3 ネイティブの Cookie 自動削除。タブを閉じれば、そのサイトが残した Cookie は数秒で消えます——信頼済みサイトは別です。すべてお使いのデバイス上で動作します。"
+  },
+  "optPillar1Lead": {
+    "message": "オープンソースで監査可能。"
+  },
+  "optPillar1Rest": {
+    "message": "MIT ライセンス。コードを読み、再ビルドし、公開された拡張機能がソースと一致することを確認できます。"
+  },
+  "optPillar2Lead": {
+    "message": "仕事ぶりを見せます。"
+  },
+  "optPillar2Rest": {
+    "message": "ポップアップの活動ログは、どの Cookie をいつ削除したかを正確に記録します——自動はブラックボックスを意味しません。"
+  },
+  "optPillar3Lead": {
+    "message": "決して売りません。"
+  },
+  "optPillar3Rest": {
+    "message": "拡張機能やあなたのデータを決して売らないという公開かつ拘束力ある誓約です。破れば、フォークしてください。"
+  },
+  "optVerifyHeading": {
+    "message": "このビルドを自分で検証"
+  },
+  "optVerifyDesc": {
+    "message": "コードを難読化していません。公開された JavaScript を読む、ソースから再ビルドして比較する、または VirusTotal でパッケージをスキャンできます。ガイドが各方法を説明します。"
+  },
+  "optSettingsHeading": {
+    "message": "設定"
+  },
+  "optSettingsPre": {
+    "message": "クリーンアップ ルール・既定の動作・ログイン保護は拡張機能のポップアップにあります——ブラウザのツールバーにある"
+  },
+  "optSettingsPost": {
+    "message": "のアイコンをクリックして開いてください。このページは信頼と検証のための情報です。"
+  },
+  "optReplayGuide": {
+    "message": "ようこそガイドをもう一度見る →"
+  },
+  "themeToggle": {
+    "message": "テーマを切り替え"
+  },
+  "cleanupDegraded": {
+    "message": "クリーンアップが低下しています。前回のスイープが失敗しました。保護が不完全な可能性があります。"
+  },
+  "dismissError": {
+    "message": "閉じる"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "言語"
+  },
+  "langSystem": {
+    "message": "システム（ブラウザ）"
+  },
+  "obProtectedTitle": {
+    "message": "保護されています。"
+  },
+  "obProtectedLede": {
+    "message": "Guardian はバックグラウンドで静かに監視しています。すべてはお使いのデバイスに残ります。開始にアカウントは不要です。"
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "デフォルトの動作:"
+  },
+  "obNavBack": {
+    "message": "戻る"
+  },
+  "obNavContinue": {
+    "message": "続ける"
+  },
+  "obNavGetStarted": {
+    "message": "開始"
+  },
+  "obStepProgress": {
+    "message": "ステップ $1 / $2"
+  },
+  "obDoneTitle": {
+    "message": "準備完了 — Guardian を開いています…"
+  },
+  "obDonePin": {
+    "message": "拡張機能をツールバーに固定すると、いつでもワンクリックで使えます。"
+  }
+}

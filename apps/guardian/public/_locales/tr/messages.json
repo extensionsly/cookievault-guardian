@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 çerez otomatik silme: etki alanlarını beyaz listeye al, geri kalanı temizle — açık kaynak."
+  },
+  "tagline": {
+    "message": "Etki alanına göre beyaz listeye al, sekme kapanınca geri kalanı temizle."
+  },
+  "thisSite": {
+    "message": "Bu site"
+  },
+  "trusted": {
+    "message": "✓ Güvenilir"
+  },
+  "ruleTitle": {
+    "message": "Kural: $1"
+  },
+  "actionAllow": {
+    "message": "İzin ver"
+  },
+  "actionCleanOnClose": {
+    "message": "Kapanınca temizle"
+  },
+  "actionCleanImmediately": {
+    "message": "Hemen temizle"
+  },
+  "defaultForUnlisted": {
+    "message": "Listelenmemiş etki alanları için varsayılan"
+  },
+  "protectLogins": {
+    "message": "Oturumları otomatik silmeye karşı koru"
+  },
+  "recommended": {
+    "message": "(önerilir)"
+  },
+  "protectLoginsTitle": {
+    "message": "Açık bir hemen-temizle kuralı belirlemediğiniz sürece, giriş/oturum çerezi gibi görünen çerezleri asla otomatik silme."
+  },
+  "alsoClearSiteData": {
+    "message": "Site verilerini de temizle"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, önbellek)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Bir sitenin çerezleri temizlenirken localStorage, IndexedDB ve önbelleğini de temizle. Etkinleştirildiğinde ek bir tarayıcı izni ister."
+  },
+  "clearAllNow": {
+    "message": "Tüm çerezleri şimdi temizle"
+  },
+  "rulesHeading": {
+    "message": "Kurallar"
+  },
+  "patternEmptyError": {
+    "message": "Desen boş olamaz."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (tam) veya *.example.com (alt etki alanları)"
+  },
+  "domainPatternAria": {
+    "message": "Etki alanı deseni"
+  },
+  "actionAria": {
+    "message": "Eylem"
+  },
+  "buttonAdd": {
+    "message": "Ekle"
+  },
+  "emptyRulesTrust": {
+    "message": "Henüz kural yok. Yukarıdaki mevcut siteyi güvenilir yapın veya aşağıya bir etki alanı ekleyin — geri kalan her şey “$1” varsayılanını izler."
+  },
+  "emptyRulesAdd": {
+    "message": "Henüz kural yok. Aşağıya bir etki alanı ekleyin — geri kalan her şey “$1” varsayılanını izler."
+  },
+  "deleteRuleAria": {
+    "message": "$1 kuralını sil"
+  },
+  "deleteRuleTitle": {
+    "message": "Kuralı sil"
+  },
+  "recentActivity": {
+    "message": "Son etkinlik"
+  },
+  "emptyAudit": {
+    "message": "Henüz temizlik olayı yok. Guardian sessizce çalışır — çerezler temizlendiğinde veya gözlemlendiğinde olaylar burada görünür."
+  },
+  "trustThisSite": {
+    "message": "Bu siteyi güvenilir yap"
+  },
+  "clearEverything": {
+    "message": "Her şeyi temizle"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "optionsButton": {
+    "message": "Seçenekler"
+  },
+  "loading": {
+    "message": "Yükleniyor…"
+  },
+  "errorLoadGuardian": {
+    "message": "Guardian yüklenemedi."
+  },
+  "clearAllTitle": {
+    "message": "Tüm çerezler şimdi temizlensin mi?"
+  },
+  "clearAllMessage": {
+    "message": "Bu işlem, güvenilir siteler ve oturumlar dahil her sitedeki her çerezi anında siler — her yerde oturumunuz kapanır. Bu işlem geri alınamaz."
+  },
+  "clearing": {
+    "message": "Temizleniyor…"
+  },
+  "clearedCookies": {
+    "message": "$1 çerez temizlendi."
+  },
+  "clearFailed": {
+    "message": "Temizleme başarısız: $1"
+  },
+  "justNow": {
+    "message": "az önce"
+  },
+  "minutesAgo": {
+    "message": "$1 dk önce"
+  },
+  "hoursAgo": {
+    "message": "$1 sa önce"
+  },
+  "obWelcome": {
+    "message": "CookieVault Guardian'a hoş geldiniz"
+  },
+  "obLede": {
+    "message": "Bir sekmeyi kapatın; o sitenin geride bıraktığı çerezler saniyeler içinde gider — güvenilir yapmayı seçtiğiniz siteler hariç. İşte 30 saniyelik özeti."
+  },
+  "obWhatDoes": {
+    "message": "Guardian ne yapar"
+  },
+  "obDoes1": {
+    "message": "Bir sitenin son sekmesini kapattıktan birkaç saniye sonra çerezlerini siler."
+  },
+  "obDoes2": {
+    "message": "Hiçbir şeyin gözden kaçmaması için her 30 saniyede bir güvenlik taraması yapar."
+  },
+  "obDoes3": {
+    "message": "Görünür bir etkinlik günlüğü tutar — neyin ne zaman temizlendiğini tam olarak görebilirsiniz."
+  },
+  "obDoes4": {
+    "message": "Güvenilir sitelere hiç dokunmaz."
+  },
+  "obWhatNever": {
+    "message": "Asla yapmadıkları"
+  },
+  "obNever1": {
+    "message": "Web sayfalarının içeriğini asla okumaz veya değiştirmez."
+  },
+  "obNever2": {
+    "message": "Çerezlerinizi, kurallarınızı veya etkinliğinizi hiçbir yere yüklemez."
+  },
+  "obNever3": {
+    "message": "Analitik yok, telemetri yok, üçüncü taraf betiği yok."
+  },
+  "obNever4": {
+    "message": "Aktif olarak kullandığınız bir sitenin oturumunu asla kapatmaz."
+  },
+  "obPickHeading": {
+    "message": "Guardian'ın listelemediğiniz siteleri nasıl ele alacağını seçin"
+  },
+  "obPickLede": {
+    "message": "Bunu istediğiniz zaman açılır pencereden değiştirebilirsiniz. Güvenilir sitelerin oturumu her zaman açık kalır."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Sekme kapanınca temizle"
+  },
+  "obChoiceCleanSub": {
+    "message": "Önerilir. İşiniz bitince listelenmemiş sitelerin çerezlerini otomatik sil."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Güvenli mod (her şeyi koru)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Yalnızca açıkça bir temizlik kuralı eklediğiniz sitelerin çerezlerini sil."
+  },
+  "obCurrentDefault": {
+    "message": "Mevcut varsayılan:"
+  },
+  "obLoginProtOn": {
+    "message": "· oturum koruması açık"
+  },
+  "obTrustHeading": {
+    "message": "Neden güvenebilirsiniz"
+  },
+  "obTrustOpenLead": {
+    "message": "Açık kaynak."
+  },
+  "obTrustOpenRest": {
+    "message": "Her satır GitHub'da MIT lisansı altında — okuyun, derleyin ve yayınlanan uzantının kaynakla eşleştiğini doğrulayın."
+  },
+  "obTrustSaleLead": {
+    "message": "Asla satılık değil."
+  },
+  "obTrustSaleRest": {
+    "message": "Uzantıyı veya verilerinizi asla satmayacağımıza dair kamuya açık, bağlayıcı bir söz verdik. Sözümüzü tutmazsak bizi fork edebilirsiniz."
+  },
+  "obTrustVerifyLead": {
+    "message": "Doğrulanabilir."
+  },
+  "obTrustVerifyRest": {
+    "message": "Kodumuzu gizlemiyoruz ve derlemeyi kendiniz kontrol etmeniz için bir kılavuz yayınlıyoruz."
+  },
+  "linkSource": {
+    "message": "GitHub'da kaynak →"
+  },
+  "linkPledge": {
+    "message": "Satmama sözü →"
+  },
+  "linkVerify": {
+    "message": "Bu derleme nasıl doğrulanır →"
+  },
+  "obFooter": {
+    "message": "Açılır pencereyi istediğiniz zaman açmak için Guardian'ı araç çubuğunuza sabitleyin — kural ekleyin, mevcut siteyi tek tıkla güvenilir yapın ve etkinlik günlüğünü izleyin."
+  },
+  "optHeroDesc": {
+    "message": "MV3 yerel çerez otomatik silme. Bir sekmeyi kapatın; o sitenin geride bıraktığı çerezler saniyeler içinde gider — güvenilir siteler hariç. Her şey cihazınızda çalışır."
+  },
+  "optPillar1Lead": {
+    "message": "Açık kaynak & denetlenebilir."
+  },
+  "optPillar1Rest": {
+    "message": "MIT lisanslı; kodu okuyun, yeniden derleyin ve yayınlanan uzantının kaynakla eşleştiğini onaylayın."
+  },
+  "optPillar2Lead": {
+    "message": "Yaptığını gösterir."
+  },
+  "optPillar2Rest": {
+    "message": "Açılır pencerenin etkinlik günlüğü, hangi çerezlerin ne zaman temizlendiğini tam olarak kaydeder — otomatik, asla kara kutu anlamına gelmez."
+  },
+  "optPillar3Lead": {
+    "message": "Asla satılık değil."
+  },
+  "optPillar3Rest": {
+    "message": "Uzantıyı veya verilerinizi asla satmayacağımıza dair kamuya açık, bağlayıcı bir söz. Sözümüzü tutmazsak bizi fork edin."
+  },
+  "optVerifyHeading": {
+    "message": "Bu derlemeyi kendiniz doğrulayın"
+  },
+  "optVerifyDesc": {
+    "message": "Kodumuzu gizlemiyoruz. Yayınlanan JavaScript'i okuyabilir, kaynaktan yeniden derleyip karşılaştırabilir veya paketi VirusTotal ile tarayabilirsiniz. Kılavuz her seçeneği adım adım anlatır."
+  },
+  "optSettingsHeading": {
+    "message": "Ayarlar"
+  },
+  "optSettingsPre": {
+    "message": "Temizlik kuralları, varsayılan eylem ve oturum koruması uzantının açılır penceresinde bulunur — açmak için tarayıcınızın araç çubuğundaki"
+  },
+  "optSettingsPost": {
+    "message": "simgesine tıklayın. Bu sayfa güven & doğrulama bilgileri içindir."
+  },
+  "optReplayGuide": {
+    "message": "Karşılama kılavuzunu yeniden oynat →"
+  },
+  "themeToggle": {
+    "message": "Temayı değiştir"
+  },
+  "cleanupDegraded": {
+    "message": "Temizleme kısıtlı — son tarama başarısız oldu. Koruma eksik olabilir."
+  },
+  "dismissError": {
+    "message": "Kapat"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Dil"
+  },
+  "langSystem": {
+    "message": "Sistem (tarayıcı)"
+  },
+  "obProtectedTitle": {
+    "message": "Korunuyorsunuz."
+  },
+  "obProtectedLede": {
+    "message": "Guardian arka planda sessizce nöbet tutuyor. Her şey cihazınızda kalır — başlamak için hesap gerekmez."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Varsayılan davranış:"
+  },
+  "obNavBack": {
+    "message": "Geri"
+  },
+  "obNavContinue": {
+    "message": "Devam et"
+  },
+  "obNavGetStarted": {
+    "message": "Başla"
+  },
+  "obStepProgress": {
+    "message": "Adım $1 / $2"
+  },
+  "obDoneTitle": {
+    "message": "Her şey hazır — Guardian açılıyor…"
+  },
+  "obDonePin": {
+    "message": "Eklentiyi araç çubuğunuza sabitleyin, böylece her zaman bir tık uzağınızda olsun."
+  }
+}

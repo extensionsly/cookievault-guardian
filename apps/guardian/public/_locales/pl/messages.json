@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "Automatyczne usuwanie plików cookie MV3: dodaj domeny do białej listy, resztę wyczyść — open source."
+  },
+  "tagline": {
+    "message": "Dodaj domeny do białej listy, resztę wyczyść po zamknięciu karty."
+  },
+  "thisSite": {
+    "message": "Ta witryna"
+  },
+  "trusted": {
+    "message": "✓ Zaufana"
+  },
+  "ruleTitle": {
+    "message": "Reguła: $1"
+  },
+  "actionAllow": {
+    "message": "Zezwól"
+  },
+  "actionCleanOnClose": {
+    "message": "Wyczyść po zamknięciu"
+  },
+  "actionCleanImmediately": {
+    "message": "Wyczyść natychmiast"
+  },
+  "defaultForUnlisted": {
+    "message": "Domyślnie dla domen spoza listy"
+  },
+  "protectLogins": {
+    "message": "Chroń dane logowania przed automatycznym usuwaniem"
+  },
+  "recommended": {
+    "message": "(zalecane)"
+  },
+  "protectLoginsTitle": {
+    "message": "Nigdy nie usuwaj automatycznie plików cookie wyglądających na cookie logowania/sesji, chyba że ustawisz jawną regułę „wyczyść natychmiast”."
+  },
+  "alsoClearSiteData": {
+    "message": "Wyczyść również dane witryny"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, pamięć podręczna)"
+  },
+  "clearSiteDataTitle": {
+    "message": "Podczas czyszczenia plików cookie witryny wyczyść również jej localStorage, IndexedDB i pamięć podręczną. Po włączeniu wymaga dodatkowego uprawnienia przeglądarki."
+  },
+  "clearAllNow": {
+    "message": "Wyczyść teraz wszystkie pliki cookie"
+  },
+  "rulesHeading": {
+    "message": "Reguły"
+  },
+  "patternEmptyError": {
+    "message": "Wzorzec nie może być pusty."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (dokładnie) lub *.example.com (subdomeny)"
+  },
+  "domainPatternAria": {
+    "message": "Wzorzec domeny"
+  },
+  "actionAria": {
+    "message": "Akcja"
+  },
+  "buttonAdd": {
+    "message": "Dodaj"
+  },
+  "emptyRulesTrust": {
+    "message": "Brak reguł. Zaufaj bieżącej witrynie powyżej lub dodaj domenę poniżej — reszta podlega ustawieniu domyślnemu „$1”."
+  },
+  "emptyRulesAdd": {
+    "message": "Brak reguł. Dodaj domenę poniżej — reszta podlega ustawieniu domyślnemu „$1”."
+  },
+  "deleteRuleAria": {
+    "message": "Usuń regułę $1"
+  },
+  "deleteRuleTitle": {
+    "message": "Usuń regułę"
+  },
+  "recentActivity": {
+    "message": "Ostatnia aktywność"
+  },
+  "emptyAudit": {
+    "message": "Brak zdarzeń czyszczenia. Guardian działa w tle — zdarzenia pojawią się tutaj, gdy pliki cookie zostaną wyczyszczone lub zaobserwowane."
+  },
+  "trustThisSite": {
+    "message": "Zaufaj tej witrynie"
+  },
+  "clearEverything": {
+    "message": "Wyczyść wszystko"
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "optionsButton": {
+    "message": "Opcje"
+  },
+  "loading": {
+    "message": "Wczytywanie…"
+  },
+  "errorLoadGuardian": {
+    "message": "Nie udało się załadować Guardiana."
+  },
+  "clearAllTitle": {
+    "message": "Wyczyścić teraz wszystkie pliki cookie?"
+  },
+  "clearAllMessage": {
+    "message": "To natychmiast usuwa każdy plik cookie na każdej witrynie, w tym na witrynach zaufanych i pliki cookie logowania — zostaniesz wylogowany wszędzie. Tej operacji nie można cofnąć."
+  },
+  "clearing": {
+    "message": "Czyszczenie…"
+  },
+  "clearedCookies": {
+    "message": "Wyczyszczono $1 plików cookie."
+  },
+  "clearFailed": {
+    "message": "Czyszczenie nieudane: $1"
+  },
+  "justNow": {
+    "message": "przed chwilą"
+  },
+  "minutesAgo": {
+    "message": "$1 min temu"
+  },
+  "hoursAgo": {
+    "message": "$1 godz. temu"
+  },
+  "obWelcome": {
+    "message": "Witamy w CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Zamknij kartę, a pliki cookie pozostawione przez tę witrynę znikną w ciągu kilku sekund — z wyjątkiem witryn, którym ufasz. Oto wersja w 30 sekund."
+  },
+  "obWhatDoes": {
+    "message": "Co robi Guardian"
+  },
+  "obDoes1": {
+    "message": "Usuwa pliki cookie witryny chwilę po zamknięciu jej ostatniej karty."
+  },
+  "obDoes2": {
+    "message": "Co 30 sekund przeprowadza kontrolę bezpieczeństwa, aby nic nie umknęło."
+  },
+  "obDoes3": {
+    "message": "Prowadzi widoczny dziennik aktywności — widzisz dokładnie, co i kiedy zostało wyczyszczone."
+  },
+  "obDoes4": {
+    "message": "Zaufane witryny pozostawia całkowicie nietknięte."
+  },
+  "obWhatNever": {
+    "message": "Czego nigdy nie robi"
+  },
+  "obNever1": {
+    "message": "Nigdy nie odczytuje ani nie zmienia zawartości stron internetowych."
+  },
+  "obNever2": {
+    "message": "Nigdy nie przesyła Twoich plików cookie, reguł ani aktywności w żadne miejsce."
+  },
+  "obNever3": {
+    "message": "Bez analityki, bez telemetrii, bez skryptów firm trzecich."
+  },
+  "obNever4": {
+    "message": "Nigdy nie wylogowuje Cię z witryny, której aktywnie używasz."
+  },
+  "obPickHeading": {
+    "message": "Wybierz, jak Guardian traktuje witryny, których nie ma na liście"
+  },
+  "obPickLede": {
+    "message": "Możesz to zmienić w dowolnej chwili w wyskakującym okienku. Zaufane witryny zawsze pozostają zalogowane."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Wyczyść po zamknięciu karty"
+  },
+  "obChoiceCleanSub": {
+    "message": "Zalecane. Automatycznie usuwa pliki cookie witryn spoza listy, gdy skończysz z nich korzystać."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Tryb bezpieczny (zachowaj wszystko)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Usuwa pliki cookie tylko tych witryn, dla których jawnie dodasz regułę czyszczenia."
+  },
+  "obCurrentDefault": {
+    "message": "Bieżące ustawienie domyślne:"
+  },
+  "obLoginProtOn": {
+    "message": "· ochrona logowania włączona"
+  },
+  "obTrustHeading": {
+    "message": "Dlaczego możesz mu zaufać"
+  },
+  "obTrustOpenLead": {
+    "message": "Open source."
+  },
+  "obTrustOpenRest": {
+    "message": "Każdy wiersz kodu jest na GitHubie na licencji MIT — przeczytaj go, zbuduj i sprawdź, czy opublikowane rozszerzenie odpowiada źródłu."
+  },
+  "obTrustSaleLead": {
+    "message": "Nigdy na sprzedaż."
+  },
+  "obTrustSaleRest": {
+    "message": "Złożyliśmy publiczne, wiążące zobowiązanie, że nigdy nie sprzedamy rozszerzenia ani Twoich danych. Jeśli je złamiemy, możesz nas sforkować."
+  },
+  "obTrustVerifyLead": {
+    "message": "Weryfikowalne."
+  },
+  "obTrustVerifyRest": {
+    "message": "Nie zaciemniamy naszego kodu i publikujemy przewodnik, jak samodzielnie sprawdzić build."
+  },
+  "linkSource": {
+    "message": "Źródło na GitHubie →"
+  },
+  "linkPledge": {
+    "message": "Zobowiązanie: nigdy na sprzedaż →"
+  },
+  "linkVerify": {
+    "message": "Jak zweryfikować ten build →"
+  },
+  "obFooter": {
+    "message": "Przypnij Guardiana do paska narzędzi, aby w każdej chwili otworzyć wyskakujące okienko — dodawaj reguły, zaufaj bieżącej witrynie jednym kliknięciem i obserwuj dziennik aktywności."
+  },
+  "optHeroDesc": {
+    "message": "Natywne dla MV3 automatyczne usuwanie plików cookie. Zamknij kartę, a pliki cookie pozostawione przez tę witrynę znikną w ciągu kilku sekund — z wyjątkiem witryn, którym ufasz. Wszystko działa na Twoim urządzeniu."
+  },
+  "optPillar1Lead": {
+    "message": "Open source i możliwe do audytu."
+  },
+  "optPillar1Rest": {
+    "message": "Na licencji MIT; przeczytaj kod, przebuduj go i potwierdź, że opublikowane rozszerzenie odpowiada źródłu."
+  },
+  "optPillar2Lead": {
+    "message": "Pokazuje, co robi."
+  },
+  "optPillar2Rest": {
+    "message": "Dziennik aktywności w wyskakującym okienku zapisuje dokładnie, które pliki cookie zostały wyczyszczone i kiedy — automatyczne nigdy nie oznacza czarnej skrzynki."
+  },
+  "optPillar3Lead": {
+    "message": "Nigdy na sprzedaż."
+  },
+  "optPillar3Rest": {
+    "message": "Publiczne, wiążące zobowiązanie, że nigdy nie sprzedamy rozszerzenia ani Twoich danych. Jeśli je złamiemy, sforkuj nas."
+  },
+  "optVerifyHeading": {
+    "message": "Zweryfikuj ten build samodzielnie"
+  },
+  "optVerifyDesc": {
+    "message": "Nie zaciemniamy naszego kodu. Możesz przeczytać dostarczony JavaScript, przebudować ze źródła i porównać lub przeskanować pakiet w VirusTotal. Przewodnik prowadzi przez każdą z opcji."
+  },
+  "optSettingsHeading": {
+    "message": "Ustawienia"
+  },
+  "optSettingsPre": {
+    "message": "Reguły czyszczenia, akcja domyślna i ochrona logowania znajdują się w wyskakującym okienku rozszerzenia — kliknij ikonę"
+  },
+  "optSettingsPost": {
+    "message": "na pasku narzędzi przeglądarki, aby je otworzyć. Ta strona zawiera informacje o zaufaniu i weryfikacji."
+  },
+  "optReplayGuide": {
+    "message": "Odtwórz przewodnik powitalny →"
+  },
+  "themeToggle": {
+    "message": "Zmień motyw"
+  },
+  "cleanupDegraded": {
+    "message": "Czyszczenie jest ograniczone — ostatni przebieg się nie powiódł. Ochrona może być niepełna."
+  },
+  "dismissError": {
+    "message": "Zamknij"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Język"
+  },
+  "langSystem": {
+    "message": "System (przeglądarka)"
+  },
+  "obProtectedTitle": {
+    "message": "Jesteś chroniony."
+  },
+  "obProtectedLede": {
+    "message": "Guardian dyskretnie czuwa w tle. Wszystko pozostaje na Twoim urządzeniu — do rozpoczęcia nie potrzebujesz konta."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Zachowanie domyślne:"
+  },
+  "obNavBack": {
+    "message": "Wstecz"
+  },
+  "obNavContinue": {
+    "message": "Kontynuuj"
+  },
+  "obNavGetStarted": {
+    "message": "Rozpocznij"
+  },
+  "obStepProgress": {
+    "message": "Krok $1 z $2"
+  },
+  "obDoneTitle": {
+    "message": "Gotowe — otwieranie Guardian…"
+  },
+  "obDonePin": {
+    "message": "Przypnij rozszerzenie do paska narzędzi, aby zawsze było o jedno kliknięcie."
+  }
+}

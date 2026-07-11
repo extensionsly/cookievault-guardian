@@ -1,0 +1,514 @@
+@import '@cookievault/ui/tokens.css';
+@import '@cookievault/ui/theme.css';
+@import '@cookievault/ui/confirm-dialog.css';
+
+:root {
+  --accent: #007b48; /* solid button bg, white text — AA */
+  --accent-soft: #dbf9e6; /* tinted fill (current-site card, allow pills) */
+  --accent-on: #00582f; /* AA text on --accent-soft */
+  --accent-dark: #075e39;
+  --accent-border: #b4f1cd; /* current-site card border */
+
+  /* Tri-state rule-action colors (Guardian signature) */
+  --allow-soft: #dcf7e1;
+  --allow-on: #09672e;
+  --allow-solid: #007b48;
+  --warn-soft: #ffeac2;
+  --warn-on: #7b4800;
+  --danger-soft: #ffe2de;
+  --danger-on: #a12628;
+
+  font-family: var(--cv-font);
+}
+
+[data-theme='dark'] {
+  --accent: #4dc588;
+  --accent-soft: #0c3722;
+  --accent-on: #7ce0aa;
+  --accent-dark: #4dc588;
+  --accent-border: #115a37;
+
+  --allow-soft: #0c3722;
+  --allow-on: #7ce0aa;
+  --allow-solid: #00935b;
+  --warn-soft: #3a2c10;
+  --warn-on: #f0c177;
+  --danger-soft: #3d1717;
+  --danger-on: #f3a3a3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  width: 380px;
+  font-size: 13px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  max-height: 600px;
+}
+
+main.status {
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  color: var(--muted);
+}
+
+main.status.error code {
+  display: block;
+  margin-top: 8px;
+  color: var(--danger);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  word-break: break-word;
+}
+
+header {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-logo {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #00b974, var(--accent));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+}
+
+.brand-name {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--fg);
+}
+
+.header-spacer {
+  flex: 1;
+}
+
+.settings-btn {
+  font-size: 15px;
+}
+
+header .hint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+section {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+section h2 {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+}
+
+section h2 .count {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+/* --- Default-action radios -------------------------------------- */
+.settings .label {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.radio-row {
+  display: flex;
+  gap: 8px;
+}
+
+.radio-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.radio-option input {
+  margin: 0;
+}
+
+/* --- Protect-logins toggle -------------------------------------- */
+.toggle-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.toggle-row input {
+  margin: 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+/* --- Current-site bar ------------------------------------------- */
+.current-site {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: 10px;
+  padding: 11px;
+}
+
+.current-site__host {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.current-site__host .label {
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.current-site__host .host {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  color: var(--accent-on);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button.primary {
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+button.primary:hover {
+  filter: brightness(0.95);
+}
+
+/* --- Add-rule form ---------------------------------------------- */
+.add-rule {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.add-rule input[type='text'],
+.add-rule select {
+  padding: 5px 7px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 12px;
+  min-width: 0;
+}
+
+.add-rule input[type='text']:focus,
+.add-rule select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.add-rule button {
+  padding: 5px 10px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-rule button:hover {
+  filter: brightness(0.95);
+}
+
+.error {
+  color: var(--danger);
+  font-size: 11px;
+  margin: 4px 0 0;
+}
+
+.empty {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+/* --- Rule list -------------------------------------------------- */
+.rule-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.rule-list li {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  border-top: 1px dashed var(--border);
+  font-size: 12px;
+}
+
+.rule-list li:first-child {
+  border-top: none;
+}
+
+.pattern {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.action {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.action-allow {
+  background: var(--allow-soft);
+  color: var(--allow-on);
+}
+
+.action-clean-on-close {
+  background: var(--warn-soft);
+  color: var(--warn-on);
+}
+
+.action-clean-immediately {
+  background: var(--danger-soft);
+  color: var(--danger-on);
+}
+
+button.icon {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+button.icon:hover {
+  background: var(--row-hover);
+  color: var(--fg);
+}
+
+button.icon.danger:hover {
+  color: var(--danger);
+}
+
+/* --- Audit log -------------------------------------------------- */
+.audit {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.audit-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.audit-list li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    'time   domain reason'
+    '.      name   .';
+  gap: 2px 8px;
+  padding: 4px 0;
+  border-top: 1px dashed var(--border);
+  font-size: 11px;
+}
+
+.audit-list li:first-child {
+  border-top: none;
+}
+
+.audit-list .time {
+  grid-area: time;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.audit-list .domain {
+  grid-area: domain;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.audit-list .name {
+  grid-area: name;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.audit-list .reason {
+  grid-area: reason;
+  color: var(--muted);
+  font-size: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 110px;
+}
+
+.audit-deleted .domain {
+  color: var(--danger);
+}
+
+.audit-observed .domain {
+  color: var(--fg);
+}
+
+/* Cleanup error (e.g. a removal that threw — see lib/engine.ts). */
+.audit-error .domain {
+  color: var(--danger);
+}
+
+.audit-error .reason {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+/* --- Footer ----------------------------------------------------- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 11px;
+}
+
+footer button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+footer button:hover {
+  background: var(--row-hover);
+}
+
+/* Keyboard focus ring — visible for keyboard users, not on mouse click. */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* --- Danger zone (clear-all) ------------------------------------ */
+.danger-zone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+
+.danger-action {
+  padding: 5px 10px;
+  border: 1px solid var(--danger);
+  background: transparent;
+  color: var(--danger);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.danger-action:hover {
+  background: var(--danger);
+  color: #fff;
+}
+
+.clear-msg {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* .confirm-dialog styling now comes from @cookievault/ui/confirm-dialog.css */

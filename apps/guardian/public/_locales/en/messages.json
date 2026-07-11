@@ -1,0 +1,308 @@
+{
+  "appName": {
+    "message": "CookieVault Guardian"
+  },
+  "appExtDescription": {
+    "message": "MV3 cookie auto-delete: whitelist domains, clean the rest — open source."
+  },
+  "tagline": {
+    "message": "Whitelist by domain, clean everything else on tab close."
+  },
+  "thisSite": {
+    "message": "This site"
+  },
+  "trusted": {
+    "message": "✓ Trusted"
+  },
+  "ruleTitle": {
+    "message": "Rule: $1"
+  },
+  "actionAllow": {
+    "message": "Allow"
+  },
+  "actionCleanOnClose": {
+    "message": "Clean on close"
+  },
+  "actionCleanImmediately": {
+    "message": "Clean immediately"
+  },
+  "defaultForUnlisted": {
+    "message": "Default for unlisted domains"
+  },
+  "protectLogins": {
+    "message": "Protect logins from auto-delete"
+  },
+  "recommended": {
+    "message": "(recommended)"
+  },
+  "protectLoginsTitle": {
+    "message": "Never auto-delete cookies that look like login/session cookies, unless you set an explicit clean-immediately rule."
+  },
+  "alsoClearSiteData": {
+    "message": "Also clear site data"
+  },
+  "siteDataKinds": {
+    "message": "(localStorage, IndexedDB, cache)"
+  },
+  "clearSiteDataTitle": {
+    "message": "When cleaning a site's cookies, also clear its localStorage, IndexedDB and cache. Requests an extra browser permission when enabled."
+  },
+  "clearAllNow": {
+    "message": "Clear all cookies now"
+  },
+  "rulesHeading": {
+    "message": "Rules"
+  },
+  "patternEmptyError": {
+    "message": "Pattern cannot be empty."
+  },
+  "patternPlaceholder": {
+    "message": "example.com (exact) or *.example.com (subdomains)"
+  },
+  "domainPatternAria": {
+    "message": "Domain pattern"
+  },
+  "actionAria": {
+    "message": "Action"
+  },
+  "buttonAdd": {
+    "message": "Add"
+  },
+  "emptyRulesTrust": {
+    "message": "No rules yet. Trust the current site above, or add a domain below — everything else follows the “$1” default."
+  },
+  "emptyRulesAdd": {
+    "message": "No rules yet. Add a domain below — everything else follows the “$1” default."
+  },
+  "deleteRuleAria": {
+    "message": "Delete rule $1"
+  },
+  "deleteRuleTitle": {
+    "message": "Delete rule"
+  },
+  "recentActivity": {
+    "message": "Recent activity"
+  },
+  "emptyAudit": {
+    "message": "No cleanup events yet. Guardian works silently — events appear here once cookies are cleaned or observed."
+  },
+  "trustThisSite": {
+    "message": "Trust this site"
+  },
+  "clearEverything": {
+    "message": "Clear everything"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "optionsButton": {
+    "message": "Options"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "errorLoadGuardian": {
+    "message": "Could not load Guardian."
+  },
+  "clearAllTitle": {
+    "message": "Clear all cookies now?"
+  },
+  "clearAllMessage": {
+    "message": "This immediately deletes every cookie on every site, including trusted sites and logins — you'll be signed out everywhere. This cannot be undone."
+  },
+  "clearing": {
+    "message": "Clearing…"
+  },
+  "clearedCookies": {
+    "message": "Cleared $1 cookies."
+  },
+  "clearFailed": {
+    "message": "Clear failed: $1"
+  },
+  "justNow": {
+    "message": "just now"
+  },
+  "minutesAgo": {
+    "message": "$1m ago"
+  },
+  "hoursAgo": {
+    "message": "$1h ago"
+  },
+  "obWelcome": {
+    "message": "Welcome to CookieVault Guardian"
+  },
+  "obLede": {
+    "message": "Close a tab, and the cookies that site left behind are gone within seconds — except the sites you choose to trust. Here's the 30-second version."
+  },
+  "obWhatDoes": {
+    "message": "What Guardian does"
+  },
+  "obDoes1": {
+    "message": "Deletes cookies for a site moments after you close its last tab."
+  },
+  "obDoes2": {
+    "message": "Runs a safety sweep every 30 seconds so nothing slips through."
+  },
+  "obDoes3": {
+    "message": "Keeps a visible activity log — you can see exactly what got cleaned, and when."
+  },
+  "obDoes4": {
+    "message": "Leaves trusted sites completely alone."
+  },
+  "obWhatNever": {
+    "message": "What it never does"
+  },
+  "obNever1": {
+    "message": "Never reads or changes the contents of web pages."
+  },
+  "obNever2": {
+    "message": "Never uploads your cookies, rules, or activity anywhere."
+  },
+  "obNever3": {
+    "message": "No analytics, no telemetry, no third-party scripts."
+  },
+  "obNever4": {
+    "message": "Never logs you out of a site you're actively using."
+  },
+  "obPickHeading": {
+    "message": "Pick how Guardian treats sites you haven't listed"
+  },
+  "obPickLede": {
+    "message": "You can change this any time from the popup. Trusted sites always stay logged in."
+  },
+  "obChoiceCleanTitle": {
+    "message": "Clean on tab close"
+  },
+  "obChoiceCleanSub": {
+    "message": "Recommended. Auto-delete cookies for unlisted sites once you're done with them."
+  },
+  "obChoiceSafeTitle": {
+    "message": "Safe mode (keep everything)"
+  },
+  "obChoiceSafeSub": {
+    "message": "Only delete cookies for sites you explicitly add a cleanup rule for."
+  },
+  "obCurrentDefault": {
+    "message": "Current default:"
+  },
+  "obLoginProtOn": {
+    "message": "· login protection on"
+  },
+  "obTrustHeading": {
+    "message": "Why you can trust it"
+  },
+  "obTrustOpenLead": {
+    "message": "Open source."
+  },
+  "obTrustOpenRest": {
+    "message": "Every line is on GitHub under the MIT license — read it, build it, and verify the published extension matches the source."
+  },
+  "obTrustSaleLead": {
+    "message": "Never for sale."
+  },
+  "obTrustSaleRest": {
+    "message": "We've made a public, binding pledge never to sell the extension or your data. If we break it, you can fork us."
+  },
+  "obTrustVerifyLead": {
+    "message": "Verifiable."
+  },
+  "obTrustVerifyRest": {
+    "message": "We don't obfuscate our code, and we publish a guide for checking the build yourself."
+  },
+  "linkSource": {
+    "message": "Source on GitHub →"
+  },
+  "linkPledge": {
+    "message": "No-sale pledge →"
+  },
+  "linkVerify": {
+    "message": "How to verify this build →"
+  },
+  "obFooter": {
+    "message": "Pin Guardian to your toolbar to open the popup any time — add rules, trust the current site in one click, and watch the activity log."
+  },
+  "optHeroDesc": {
+    "message": "MV3-native cookie auto-delete. Close a tab and the cookies that site left behind are gone within seconds — except the sites you trust. Everything runs on your device."
+  },
+  "optPillar1Lead": {
+    "message": "Open source & auditable."
+  },
+  "optPillar1Rest": {
+    "message": "MIT-licensed; read the code, rebuild it, and confirm the published extension matches the source."
+  },
+  "optPillar2Lead": {
+    "message": "It shows its work."
+  },
+  "optPillar2Rest": {
+    "message": "The popup's activity log records exactly which cookies were cleaned and when — automatic never means a black box."
+  },
+  "optPillar3Lead": {
+    "message": "Never for sale."
+  },
+  "optPillar3Rest": {
+    "message": "A public, binding pledge never to sell the extension or your data. If we break it, fork us."
+  },
+  "optVerifyHeading": {
+    "message": "Verify this build yourself"
+  },
+  "optVerifyDesc": {
+    "message": "We don't obfuscate our code. You can read the shipped JavaScript, rebuild from source and compare, or scan the package with VirusTotal. The guide walks through each option."
+  },
+  "optSettingsHeading": {
+    "message": "Settings"
+  },
+  "optSettingsPre": {
+    "message": "Cleanup rules, the default action, and login protection live in the extension popup — click the"
+  },
+  "optSettingsPost": {
+    "message": "icon in your browser's toolbar to open it. This page is for trust & verification information."
+  },
+  "optReplayGuide": {
+    "message": "Replay the welcome guide →"
+  },
+  "themeToggle": {
+    "message": "Toggle theme"
+  },
+  "cleanupDegraded": {
+    "message": "Cleanup is degraded — the last sweep failed. Protection may be incomplete."
+  },
+  "dismissError": {
+    "message": "Dismiss"
+  },
+  "appShortName": {
+    "message": "Guardian"
+  },
+  "prefLanguage": {
+    "message": "Language"
+  },
+  "langSystem": {
+    "message": "System (browser)"
+  },
+  "obProtectedTitle": {
+    "message": "You're protected."
+  },
+  "obProtectedLede": {
+    "message": "Guardian is watching quietly in the background. Everything stays on your device — no account needed to start."
+  },
+  "obDefaultBehaviorLabel": {
+    "message": "Default behavior:"
+  },
+  "obNavBack": {
+    "message": "Back"
+  },
+  "obNavContinue": {
+    "message": "Continue"
+  },
+  "obNavGetStarted": {
+    "message": "Get started"
+  },
+  "obStepProgress": {
+    "message": "Step $1 of $2"
+  },
+  "obDoneTitle": {
+    "message": "All set — opening Guardian…"
+  },
+  "obDonePin": {
+    "message": "Pin the extension to your toolbar so it's always one click away."
+  }
+}

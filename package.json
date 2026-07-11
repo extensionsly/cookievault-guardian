@@ -1,0 +1,35 @@
+{
+  "name": "cookievault-guardian",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CookieVault Guardian — open-source MV3 browser extension that auto-deletes cookies from sites not on your allowlist.",
+  "license": "MIT",
+  "homepage": "https://cookievault.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/extensionsly/cookievault-guardian.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.5.0",
+  "scripts": {
+    "build": "pnpm --filter guardian build",
+    "build:firefox": "pnpm --filter guardian build:firefox",
+    "zip": "pnpm --filter guardian zip",
+    "zip:firefox": "pnpm --filter guardian zip:firefox",
+    "test": "pnpm -r --parallel test",
+    "typecheck": "pnpm -r --parallel typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "vitest>vite": "^8.0.0"
+    }
+  }
+}
