@@ -36,11 +36,11 @@ data leaves the browser, and the server only ever stores ciphertext (see
 
 This is a self-contained pnpm workspace:
 
-| Path                | What it is                                                          |
-| ------------------- | ------------------------------------------------------------------ |
-| `apps/guardian/`    | The Guardian extension (WXT + React, MV3).                         |
-| `packages/shared/`  | Schemas, AES-256-GCM / PBKDF2 crypto primitives, cleanup engine.   |
-| `packages/ui/`      | Shared design tokens and React UI primitives.                      |
+| Path               | What it is                                                       |
+| ------------------ | ---------------------------------------------------------------- |
+| `apps/guardian/`   | The Guardian extension (WXT + React, MV3).                       |
+| `packages/shared/` | Schemas, AES-256-GCM / PBKDF2 crypto primitives, cleanup engine. |
+| `packages/ui/`     | Shared design tokens and React UI primitives.                    |
 
 ## Build from source
 
